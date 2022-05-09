@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="salmenta_guneak.xsl"?>
+<datuak>
+    <guneak>
+        <gunea id="1">
+            <izena>Gunea 1</izena>
+            <solairua>2</solairua>
+            <ubikazioa>url</ubikazioa>
+            <irudia>\img\1.png</irudia>
+            <produktuak>
+                <produktua>p3</produktua>
+                <produktua>p7</produktua>
+                <produktua>p4</produktua>
+                <produktua>p2</produktua>
+                <produktua>p13</produktua>
+            </produktuak>
+        </gunea>
+        <gunea id="2">
+            <izena>Gunea 2</izena>
+            <solairua>3</solairua>
+            <ubikazioa>url</ubikazioa>
+            <irudia>\img\2.png</irudia>
+            <produktuak>
+                <produktua>p1</produktua>
+                <produktua>p12</produktua>
+                <produktua>p20</produktua>
+                <produktua>p8</produktua>
+                <produktua>p9</produktua>
+            </produktuak>
+        </gunea>
+        <gunea id="3">
+            <izena>Gunea 3</izena>
+            <solairua>2</solairua>
+            <ubikazioa>url</ubikazioa>
+            <irudia>\img\3.png</irudia>
+            <produktuak>
+                <produktua>p3</produktua>
+                <produktua>p7</produktua>
+                <produktua>p4</produktua>
+                <produktua>p2</produktua>
+                <produktua>p13</produktua>
+            </produktuak>
+        </gunea>
+        <gunea id="4">
+            <izena>Gunea 4</izena>
+            <solairua>3</solairua>
+            <ubikazioa>url</ubikazioa>
+            <irudia>\img\4.png</irudia>
+            <produktuak>
+                <produktua>p1</produktua>
+                <produktua>p12</produktua>
+                <produktua>p20</produktua>
+                <produktua>p8</produktua>
+                <produktua>p9</produktua>
+            </produktuak>
+        </gunea>
+        <gunea id="5">
+            <izena>Gunea 5</izena>
+            <solairua>2</solairua>
+            <ubikazioa>url</ubikazioa>
+            <irudia>\img\5.png</irudia>
+            <produktuak>
+                <produktua>p3</produktua>
+                <produktua>p7</produktua>
+                <produktua>p4</produktua>
+                <produktua>p2</produktua>
+                <produktua>p13</produktua>
+            </produktuak>
+        </gunea>
+        <gunea id="6">
+            <izena>Gunea 6</izena>
+            <solairua>3</solairua>
+            <ubikazioa>url</ubikazioa>
+            <irudia>\img\6.png</irudia>
+            <produktuak>
+                <produktua>p1</produktua>
+                <produktua>p12</produktua>
+                <produktua>p20</produktua>
+                <produktua>p8</produktua>
+                <produktua>p9</produktua>
+            </produktuak>
+        </gunea>
+    </guneak>
+
+
+    <produktuak>
+        <produktua id="p1">
+            <izena>Expresso</izena>
+            <argazkia>"img\expreso.png"</argazkia>
+            <deskribapena> Kafe bikaina, hawaiiz estalia</deskribapena>
+            <prezioa>2.30€</prezioa>
+            <kategoria>Kafe</kategoria>
+            <pisua>3KG</pisua>
+        </produktua>
+        <produktua id="p2">
+            <izena>Eskuz irinduta</izena>
+            <argazkia>"img\mano.png"</argazkia>
+            <deskribapena> Kafe bikaina, eskuz irinduta</deskribapena>
+            <prezioa>4.20€</prezioa>
+            <kategoria>Kafe</kategoria>
+            <pisua>5KG</pisua>
+        </produktua>
+        <produktua id="p3">
+            <izena>Latte Marrazkiarekin</izena>
+            <argazkia>"img\marrazkia.png"</argazkia>
+            <deskribapena> Kafe bikaina, marrazkitxu batekin</deskribapena>
+            <prezioa>5.20€</prezioa>
+            <kategoria>Kafe</kategoria>
+            <pisua>1KG</pisua>
+        </produktua>
+        <produktua id="p4">
+            <izena>Beltza (Premium Quality)</izena>
+            <argazkia>"img\expreso.png"</argazkia>
+            <deskribapena> Kafe bikaina, premium quality Dolce Gabbana express limited edition</deskribapena>
+            <prezioa>7.30€</prezioa>
+            <kategoria>Kafe</kategoria>
+            <pisua>100G</pisua>
+        </produktua>
+        <produktua id="p11">
+            <izena>NesToe 0.80€</izena>
+            <argazkia>"img\nestoe.png"</argazkia>
+            <deskribapena> Nestea but with a toe</deskribapena>
+            <prezioa>0.80€</prezioa>
+            <kategoria>Edariak</kategoria>
+            <pisua>400G</pisua>
+        </produktua>
+        <produktua id="p21">
+            <izena>Gontz-Gontz Extreme (Limited Edition Pika-Pika)</izena>
+            <argazkia>"img\Gontz-gontz.webp"</argazkia>
+            <deskribapena> 
+            Gominola paregabea. Hainbat elezaharrek diotenez, bizitzan behin bakarrik aurkezten da probatzeko aukera. Bere zaporeak goragalea, isurketa edo bat-bateko heriotza eragin dezake. DESITXURATUTA JATEA.
+            EXTREME 💯💯💯💯
+            </deskribapena>
+            <prezioa>3.80€ </prezioa>
+            <kategoria>Pika-Pika</kategoria>
+            <pisua>100G</pisua>
+        </produktua>
+    </produktuak>
+</datuak>

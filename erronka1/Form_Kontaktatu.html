@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+  <head>
+    <title>Kontaktatzeko</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Makina Saltzaileko web orria"/>
+    <meta name="keywords" content="vending machine, makina saltzailea, maquina expendedora"/>
+    <meta name="author" content="Marko eta Gontzal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css"  href="./css/css.css" />
+    <link rel="icon" type="image/png" href="/MULTIMEDIA/favicon.png" />
+  </head>
+
+  <body class="body1">
+    <div class="barra">
+      <h2>\ Menu /<img src="Multimedia/bus.png" alt="Menu" width="80px" height="50px"></h2>
+      <ul>
+          <li><a href="Index.html">~ Tremibus ~</a></li>
+          <li><a href="Gure_Produktuak.html">~ Gure Produktuak ~</a></li>
+          <li><a href="Kontsultak.html">~ Kontsultak ~</a></li>   
+      </ul>
+    </div> 
+    <div class="divform1">
+      <!--Formularioa hasten da, input desberdinak-->
+      <form action="ezer">
+
+        <div class="banner">
+          <h1 class="h1bat">Produktuak Erosi</h1>
+        </div>
+
+        <div>
+          <br>
+          <label for="date">Gaurko data:</label>
+          <br>
+          <input type="date" name="date" id="date" required/>
+        </div>
+
+        <div>
+
+          <br>
+          <label for="name">Izen-Abizenak:</label>
+
+          <div>
+            <input type="text" name="name" id="name" placeholder="Izena" size="12px" required/>
+            <input type="text" name="name" id="name" placeholder="Abizenak" size="20px" required />
+          </div>
+
+        </div>
+
+        <div>
+          <br>
+          <label for="email">Email-a:</label>
+          <input type="email" name="email" placeholder="...@gmail.com" required/>
+         </div>
+
+        <div>
+          <br>
+          <label for="phone">Telefonoa:</label>
+          <input type="text" name="phone" placeholder="+34 612345678" required/>
+        </div>
+
+        <div>
+
+          <br>
+          <label for="galdera">Sexua:</label>
+          <br><br>
+
+          <div>
+
+            <div>
+              <input type="radio" value="none" id="radio_1" name="galdera"/>
+              <label for="galdera"><span>Gizon</span></label>
+            </div>
+
+            <div>
+              <input type="radio" value="none" id="radio_2" name="galdera"/>
+              <label for="galdera"><span>Emakume</span></label>
+            </div>
+
+            <div>
+              <input type="radio" value="none" id="radio_3" name="galdera"/>
+              <label for="galdera"><span>Ez dut esan nahi</span></label>
+            </div>
+
+          </div>
+
+        </div>
+         
+        <div>
+
+          <p>Zure helbidea:</p>
+
+          <input type="text" name="helbidea" id="helbidea" placeholder="Postal / Zip code" required/>
+          <input type="text" name="helbidea" id="helbidea" placeholder="Hiria" required/>
+          <input type="text" name="helbidea" id="helbidea" placeholder="helbidea" required/>
+          
+            <select required>
+              <option value="">Espainia</option>
+              <option value="1">Andorra</option>
+              <option value="2">Madagascar</option>
+              <option value="3">Cuba</option>
+              <option value="4">Kongo</option>
+              <option value="5">Vatican City</option>
+            </select>
+          
+          
+          <p>Gaixotasunak (baten bat baduzu):</p>
+          <input type="text" name="illness" />
+
+          <p>Informazio gehigarria:</p>
+          <textarea id="komentarioa" rows="8" cols="30" ></textarea>
+
+          <br><br>
+
+          <p>Makina produktua aukeratu:</p>
+
+          <div class="makinakform">
+
+          <p> Kafe Makina &nbsp;</p>
+          <!-- Select erabili dugu dropdown formulario mota egiteko -->
+          <select style="width: 100px;">
+            <option value="Expresso">Expresso</option>
+            <option value="Eskuz irinduta">Eskuz irinduta</option>
+            <option value="Latte Marrazkiarekin">Latte Marrazkiarekin</option>
+            <option value="Beltza (Premium Quality)">Beltza (Premium Quality)</option>
+            <option value="Txinatarra">Txinatarra</option>
+            <option value="Kolonbiakoa">Kolonbiakoa</option>
+            <option value="Moztuta">Moztuta</option>
+          </select>
+          <!-- Select erabili dugu dropdown formulario mota egiteko -->
+          <p> &nbsp; Edari Makina &nbsp; </p>
+          <select style="width: 100px;">
+            <option value="Fonta">Fonta</option>
+            <option value="Nuka Kola">Nuka Kola</option>
+            <option value="Aquarius'nt">Aquarius'nt</option>
+            <option value="Té Limoi">Té Limoi</option>
+            <option value="BlueBull">BlueBull</option>
+            <option value="Nestoe">Nestoe</option>
+            <option value="Ura (Normala jeje)">Ura 250ML (Everest Mountain)</option>
+          </select>
+          <p> &nbsp; Pika-Pika Makina &nbsp; </p>
+          <!-- Select erabili dugu dropdown formulario mota egiteko -->
+          <select style="width: 100px;">
+            <option value="Mix n' Jan">Mix n' Jan</option>
+            <option value="Pika-Pika (Kola)">Pika-Pika (Kola)</option>
+            <option value="Pika-Pika (Limoi)">Pika-Pika (Limoi)</option>
+            <option value="Pika-Pika (Laranja)">Pika-Pika (Laranja)</option>
+            <option value="Sour Sagarra">Sour Sagarra</option>
+            <option value="Txiklea">Txiklea</option>
+            <option value="Gontz-Gontz Extreme (Limited Edition Pika-Pika)">Gontz-Gontz Extreme (Limited Edition Pika-Pika) NOT AVAILABLE</option>
+          </select>
+          <!-- Select erabili dugu dropdown formulario mota egiteko -->
+          <p>&nbsp; Fruta Makina &nbsp; </p>
+          <select style="width: 100px;">
+            <option value="Sagarra">Sagarra</option>
+            <option value="Marakuia">Marakuia</option>
+            <option value="Ananana">Ananana</option>
+            <option value="Banana">Banana</option>
+            <option value="Laranja">Laranja</option>
+            <option value="Azenarioa">Azenarioa</option>
+            <option value="Limoia">Limoia</option>
+          </select>
+        </div>
+
+        <br><br>
+
+        <label for="kantitatea">Kantitatea:</label>
+        <!--Zenbakiak bakarrik onartzen ditu minimo batekin-->
+        <input type="number" id="kantitatea" name="kantitatea"min="10" max="100000" required>
+
+          <br><br>
+
+          <details> <!--Erabiltzailerako inkesta bat-->
+            <summary>Gehigarriak</summary>
+
+            <p> Zure esperientzia orokorra web orriari nota bat ipini mesedez:</p>
+            <label>
+              <input type="radio" name="stars" value="1" />
+              <span class="icon">★</span>
+            </label>
+            
+            <br>
+
+            <label>
+              <input type="radio" name="stars" value="2" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+
+            <br>
+
+            <label>
+              <input type="radio" name="stars" value="3" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>   
+            </label>
+
+            <br>
+
+            <label>
+              <input type="radio" name="stars" value="4" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+
+            <br>
+
+            <label>
+              <input type="radio" name="stars" value="5" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+
+          </details>
+
+        <br><br>
+
+          <button type="submit">Bidali</button>
+          <button type="reset">Ezabatu</button>
+        </div>
+      </form>
+    </div>
+    <footer class="fixed">
+      <div>
+        <a href="https://www.twitter.com">
+          <img class="saresozialimg" src="Multimedia/twitter_logo.png" alt="Twitter_Logo">
+        </a>
+     
+        <a href="https://www.instagram.com">
+          <img class="saresozialimg" src="Multimedia/insta.webp" alt="Instagram">
+        </a>
+     
+        <a href="https://www.facebook.com">
+          <img class="saresozialimg" src="Multimedia/face.webp" alt="Facebook">
+         </a>
+      </div>
+      
+      <div>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="CC" alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a>
+      </div>
+  
+    </footer>
+  </body>
+
+</html>
