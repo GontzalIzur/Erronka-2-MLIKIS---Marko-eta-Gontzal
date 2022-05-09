@@ -70,7 +70,6 @@
 
                     <fieldset class="datuakgune">
                         <xsl:if test="$id_sg=1">
-                            <xsl:value-of select=""></xsl:value-of>
                             <h1>Hello 1</h1>
                         </xsl:if>
                         <xsl:if test="$id_sg=2">
