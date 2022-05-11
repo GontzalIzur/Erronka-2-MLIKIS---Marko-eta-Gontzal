@@ -16,7 +16,7 @@
     /*
     Arau horiek aplikatzeko "motor" bat sortzen dugu.
     Transformazio-arauak kargatuko ditugu
-    Arau horiek aplikatuko dizkiogu dokumentuari
+    Arau ahoriek aplikatuko dizkiogu dokumentuari
     */
 
    $proc = new XSLTProcessor();
