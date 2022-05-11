@@ -77,8 +77,10 @@
                                     </xsl:attribute>
                                 </img>
                                 <p style="font-family: fantasy; font-size: 30px">
-                                    Termibuseko <xsl:value-of select="solairua"></xsl:value-of>. Solairuan
-                                    <xsl:value-of select="deskribapena"></xsl:value-of>
+                                Termibuseko <xsl:value-of select="solairua"></xsl:value-of>. Solairuan
+                                    <br></br>
+                                    <br></br>
+                                |                                    <xsl:value-of select="deskribapena"></xsl:value-of> |
                                 </p>
                                 <iframe title="Gune1" width="450" height="350">
                                     <xsl:attribute name="src">
