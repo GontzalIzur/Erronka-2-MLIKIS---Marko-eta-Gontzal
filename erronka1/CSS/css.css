@@ -15,14 +15,13 @@ header {
   width: 100%;
   height: 100px;
   display: flex;
-  justify-content: center; /* barruko elementuak erdian jartzen ditu flex kutxa batean */
+  justify-content: center;
+  /* barruko elementuak erdian jartzen ditu flex kutxa batean */
   align-items: center;
   background: rgb(178, 196, 205);
-  background: linear-gradient(
-    0deg,
-    rgba(178, 196, 205, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(178, 196, 205, 1) 0%,
+      rgba(255, 255, 255, 1) 100%);
   border-bottom: 3px solid #061439;
 }
 
@@ -43,7 +42,7 @@ section.index {
   align-items: center;
 }
 
-section > p {
+section>p {
   text-align: justify;
 }
 
@@ -53,7 +52,8 @@ section > p {
   width: 8%;
   height: 100px;
   position: absolute;
-  transition: 0.3s all; /* Transizioak menua desplegatzeko behar duen denbora dira */
+  transition: 0.3s all;
+  /* Transizioak menua desplegatzeko behar duen denbora dira */
   z-index: 1;
 }
 
@@ -61,6 +61,7 @@ section > p {
   padding: 0px;
   text-align: center;
 }
+
 .barra li {
   transition: all 0.6s;
   list-style: none;
@@ -91,42 +92,45 @@ section > p {
 .barra:hover {
   width: 100%;
   height: 90%;
-  background: rgb(
-    178,
-    196,
-    205
-  ); /* Gradient-ak erabili ditugu orrien zehar kolore animatuagoak ipintzeko */
-  background: linear-gradient(
-    0deg,
-    rgba(178, 196, 205, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: rgb(178,
+      196,
+      205);
+  /* Gradient-ak erabili ditugu orrien zehar kolore animatuagoak ipintzeko */
+  background: linear-gradient(0deg,
+      rgba(178, 196, 205, 1) 0%,
+      rgba(255, 255, 255, 1) 100%);
   border: solid 1px black;
 }
+
 .barra:hover h2 {
   padding: 15px;
   font-size: 35px;
 }
+
 .barra:hover a {
   font-size: 20px;
   color: black;
   display: block;
   padding: 20px;
 }
+
 .barra:hover img {
-  display: none; /* Argazkia desagertzen da */
+  display: none;
+  /* Argazkia desagertzen da */
 }
 
 .barra:hover li {
   border-top: 2px solid #061439;
   width: 100%;
 }
+
 .barra:hover ul:last-of-type {
   border-bottom: 2px solid #061439;
 }
 
 .barra:hover a:hover {
-  font-size: 25px; /* Textu handitzen da eta zentrora mugitzen da */
+  font-size: 25px;
+  /* Textu handitzen da eta zentrora mugitzen da */
   padding: 30px 0px;
   background: #6076b3;
 }
@@ -136,16 +140,16 @@ section > p {
 }
 
 footer {
-  bottom: 0; /* Beste atributoekin konbiantuta footer-a behen atxikituta usten du */
-  position: sticky; /* Orria scroll egiterakoan footer-a beti ikusiko da */
+  bottom: 0;
+  /* Beste atributoekin konbiantuta footer-a behen atxikituta usten du */
+  position: sticky;
+  /* Orria scroll egiterakoan footer-a beti ikusiko da */
   width: 100%;
   height: 80px;
   background: rgb(178, 196, 205);
-  background: linear-gradient(
-    0deg,
-    rgba(178, 196, 205, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(178, 196, 205, 1) 0%,
+      rgba(255, 255, 255, 1) 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -157,7 +161,8 @@ footer {
   width: 31px;
   padding: 3px;
   border-radius: 100%;
-  box-shadow: 6px 4px rgba(0, 0, 0, 0.5); /* Sombra propietatea */
+  box-shadow: 6px 4px rgba(0, 0, 0, 0.5);
+  /* Sombra propietatea */
   margin-left: 15px;
 }
 
@@ -180,21 +185,17 @@ article.kontsultak {
   float: left;
   margin-left: 10%;
   margin-bottom: 10%;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
+      rgba(255, 255, 255, 0.6)),
     url("../MULTIMEDIA/karkanpo1.jpg") repeat fixed;
   background-size: 700px;
 }
 
 .karkampo1:hover {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
+      rgba(255, 255, 255, 0.3)),
     url("../MULTIMEDIA/karkanpo1.jpg") repeat fixed;
   background-size: 700px;
 }
@@ -208,21 +209,17 @@ article.kontsultak {
   float: left;
   margin-left: 10%;
   margin-bottom: 10%;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
+      rgba(255, 255, 255, 0.6)),
     url("../MULTIMEDIA/productos.jpg") repeat fixed;
   background-size: 700px;
 }
 
 .karkampo2:hover {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
+      rgba(255, 255, 255, 0.3)),
     url("../MULTIMEDIA/productos.jpg") repeat fixed;
   background-size: 700px;
 }
@@ -236,21 +233,17 @@ article.kontsultak {
   float: left;
   margin-left: 10%;
   margin-bottom: 10%;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
+      rgba(255, 255, 255, 0.6)),
     url("../MULTIMEDIA/repar.jpg") no-repeat fixed;
   background-size: 1900px;
 }
 
 .karkampo3:hover {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
+      rgba(255, 255, 255, 0.3)),
     url("../MULTIMEDIA/repar.jpg") no-repeat fixed;
   background-size: 1900px;
 }
@@ -264,21 +257,17 @@ article.kontsultak {
   float: left;
   margin-left: 10%;
   margin-bottom: 10%;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
+      rgba(255, 255, 255, 0.6)),
     url("../MULTIMEDIA/horario.png") repeat fixed;
   background-size: 700px;
 }
 
 .karkampo4:hover {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
+      rgba(255, 255, 255, 0.3)),
     url("../MULTIMEDIA/horario.png") repeat fixed;
   background-size: 700px;
 }
@@ -288,23 +277,22 @@ article.kontsultak {
   justify-content: center;
 }
 
-.karbarru > h2 {
+.karbarru>h2 {
   font-size: 30px;
   font-weight: 500px;
   line-height: 85px;
 }
 
 footer.fixed {
-  bottom: 0; /* Beste atributoekin konbiantuta footer-a behen atxikituta usten du */
+  bottom: 0;
+  /* Beste atributoekin konbiantuta footer-a behen atxikituta usten du */
   position: fixed;
   width: 100%;
   height: 80px;
   background: rgb(178, 196, 205);
-  background: linear-gradient(
-    0deg,
-    rgba(178, 196, 205, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(178, 196, 205, 1) 0%,
+      rgba(255, 255, 255, 1) 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -329,18 +317,18 @@ div.index {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.6)
-  );
+  background: linear-gradient(0deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6));
   padding: 5%;
 }
+
 /* WEB ORRIAK RESPOSIVE-AK IZATEKO */
 @media (max-width: 600px) {
   div.index {
     flex-direction: column;
   }
+
   .makina1div {
     flex-direction: column;
     justify-content: center;
@@ -368,7 +356,7 @@ ul.index {
 }
 
 /* Orri argazki propietateak */
-section > img.index {
+section>img.index {
   width: 300px;
   height: 300px;
   border: solid 2px black;
@@ -391,7 +379,8 @@ span.index1 {
 
 span.index2 {
   color: white;
-  position: absolute; /* Honek usten dit elementu hay bakarrik mugitzea besteekin interferitu barik */
+  position: absolute;
+  /* Honek usten dit elementu hay bakarrik mugitzea besteekin interferitu barik */
   margin-left: 90%;
   padding: 2px;
   font-size: 10px;
@@ -405,7 +394,8 @@ span.index2 {
   width: 8%;
   height: 100px;
   position: absolute;
-  transition: 0.3s all; /* Transizioak menua desplegatzeko behar duen denbora dira */
+  transition: 0.3s all;
+  /* Transizioak menua desplegatzeko behar duen denbora dira */
   z-index: 1;
   color: whitesmoke;
 }
@@ -414,6 +404,7 @@ span.index2 {
   padding: 0px;
   text-align: center;
 }
+
 .barra1 li {
   transition: all 0.6s;
   list-style: none;
@@ -435,7 +426,8 @@ span.index2 {
 }
 
 .barra1 img {
-  padding: 10px; /* Gure autobus logo menu propietateak */
+  padding: 10px;
+  /* Gure autobus logo menu propietateak */
   border: solid 1px black;
   background-color: white;
 }
@@ -444,17 +436,17 @@ span.index2 {
   width: 100%;
   height: 90%;
   background: rgb(13, 13, 13);
-  background: linear-gradient(
-    0deg,
-    rgba(13, 13, 13, 1) 0%,
-    rgba(66, 66, 66, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(13, 13, 13, 1) 0%,
+      rgba(66, 66, 66, 1) 100%);
   border: solid 1px black;
 }
+
 .barra1:hover h2 {
   padding: 15px;
   font-size: 35px;
 }
+
 .barra1:hover a {
   font-size: 20px;
   color: black;
@@ -462,20 +454,24 @@ span.index2 {
   padding: 20px;
   color: whitesmoke;
 }
+
 .barra1:hover img {
-  display: none; /* Argazkia desagertzen da */
+  display: none;
+  /* Argazkia desagertzen da */
 }
 
 .barra1:hover li {
   border-top: 2px solid #061439;
   width: 100%;
 }
+
 .barra1:hover ul:last-of-type {
   border-bottom: 2px solid #061439;
 }
 
 .barra1:hover a:hover {
-  font-size: 25px; /* Textu handitzen da eta zentrora mugitzen da hover egiterakoan sekzioetan */
+  font-size: 25px;
+  /* Textu handitzen da eta zentrora mugitzen da hover egiterakoan sekzioetan */
   padding: 30px 0px;
   background: #6076b3;
 }
@@ -494,26 +490,23 @@ span.index2 {
   justify-content: center;
   align-items: center;
   background: rgb(13, 13, 13);
-  background: linear-gradient(
-    0deg,
-    rgba(13, 13, 13, 1) 0%,
-    rgba(66, 66, 66, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(13, 13, 13, 1) 0%,
+      rgba(66, 66, 66, 1) 100%);
   border-bottom: 3px solid white;
 }
 
 footer.index {
   margin-top: auto;
   bottom: 0;
-  position: sticky; /* Orria scroll egiterakoan footer-a beti ikusiko da */
+  position: sticky;
+  /* Orria scroll egiterakoan footer-a beti ikusiko da */
   width: 100%;
   height: 80px;
   background: rgb(13, 13, 13);
-  background: linear-gradient(
-    0deg,
-    rgba(13, 13, 13, 1) 0%,
-    rgba(66, 66, 66, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(13, 13, 13, 1) 0%,
+      rgba(66, 66, 66, 1) 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -531,11 +524,9 @@ footer.index {
 }
 
 body.produktuak {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
+      rgba(255, 255, 255, 0.3)),
     url("../MULTIMEDIA/fondo1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -544,24 +535,22 @@ body.produktuak {
 }
 
 article.produktuak {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("../MULTIMEDIA/fondo1.jpg") no-repeat center center fixed; /* Argazkiari gradient garden bat modukoa aplikatzen zaio bakground image-nean sentzasioa emateko low opacity duela */
+      rgba(255, 255, 255, 0.3)),
+    url("../MULTIMEDIA/fondo1.jpg") no-repeat center center fixed;
+  /* Argazkiari gradient garden bat modukoa aplikatzen zaio bakground image-nean sentzasioa emateko low opacity duela */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 fieldset.produktuak {
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.6)
-  );
+  background: linear-gradient(0deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6));
   width: 288px;
 }
 
@@ -597,7 +586,8 @@ hr {
 }
 
 a {
-  text-decoration: none; /* Estekak duten urdin azpimarraketa kentzen zaioa estekak duten argazkietan lerro urdin bat ez ateratzeko */
+  text-decoration: none;
+  /* Estekak duten urdin azpimarraketa kentzen zaioa estekak duten argazkietan lerro urdin bat ez ateratzeko */
 }
 
 /* Klikatzerakoan agertzen diren propietateak */
@@ -626,7 +616,8 @@ figcaption {
   text-align: center;
   margin-left: 0px;
   color: black;
-  opacity: 70%; /* Apropos gutxi ikusteko eta bezeroari ez molestatzeko gardentasun murriztuta jartzen da */
+  opacity: 70%;
+  /* Apropos gutxi ikusteko eta bezeroari ez molestatzeko gardentasun murriztuta jartzen da */
   text-decoration: none;
   font-size: 10px;
   font-style: italic;
@@ -670,16 +661,19 @@ figcaption:hover {
   color: black;
   border: 2px solid #4caf50;
 }
+
 .botoik2 {
   background-color: white;
   color: black;
   border: 2px solid #fcbc0e;
 }
+
 .botoik3 {
   background-color: white;
   color: black;
   border: 2px solid #e2421a;
 }
+
 .botoik4 {
   background-color: white;
   color: black;
@@ -687,11 +681,9 @@ figcaption:hover {
 }
 
 .body1 {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
+      rgba(255, 255, 255, 0.3)),
     url("../MULTIMEDIA/fondo1.jpg") no-repeat center center fixed;
   /* -webkit, -moz eta propietate hauek ez dira beharrezkoak baina nabigatzaile guztietan funtzionatu duela ziurtatzen du */
   -webkit-background-size: cover;
@@ -712,6 +704,7 @@ figcaption:hover {
   text-align: center;
   color: white;
 }
+
 /* formularioa doan KUTXAN */
 .divform1 {
   display: flex;
@@ -766,11 +759,9 @@ button.bilatu {
 
 .datuakgune {
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.6)
-  );
+  background: linear-gradient(0deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6));
   margin-top: 5vh;
   margin-bottom: 5vh;
   width: 800px;
@@ -805,4 +796,12 @@ fieldset.datuakgune:hover {
 .classaskodaude {
   margin: -10px;
   padding: 10px;
+}
+
+.divvvvvvvvv {
+  display: flex;
+  border: 2px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
 }

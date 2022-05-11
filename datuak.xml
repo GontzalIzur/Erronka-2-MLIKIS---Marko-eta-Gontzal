@@ -9,11 +9,10 @@
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d256.8160671563196!2d-2.949325427862091!3d43.26101720394129!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1652267089215!5m2!1ses!2ses</ubikazioa>
             <irudia>img/1.png</irudia>
             <prk>
-                <pr id="p3">p3</pr>
-                <pr id="p7">p7</pr>
-                <pr id="p5">p5</pr>
-                <pr id="p2">p2</pr>
-                <pr id="p9">p9</pr>
+                <pr id="p8">p8</pr>
+                <pr id="p21">p21</pr>
+                <pr id="p11">p11</pr>
+                <pr id="p4">p4</pr>
             </prk>
         </gunea>
         <gunea id="2">
@@ -25,9 +24,8 @@
             <prk>
                 <pr id="p3">p3</pr>
                 <pr id="p7">p7</pr>
-                <pr id="p5">p5</pr>
+                <pr id="p21">p21</pr>
                 <pr id="p2">p2</pr>
-                <pr id="p9">p9</pr>
             </prk>
         </gunea>
         <gunea id="3">
@@ -37,11 +35,10 @@
             <ubikazioa>url</ubikazioa>
             <irudia>img/3.png</irudia>
             <prk>
-                <pr id="p3">p3</pr>
-                <pr id="p7">p7</pr>
-                <pr id="p5">p5</pr>
+                <pr id="p1">p1</pr>
                 <pr id="p2">p2</pr>
-                <pr id="p9">p9</pr>
+                <pr id="p4">p4</pr>
+                <pr id="p11">p11</pr>
             </prk>
         </gunea>
         <gunea id="4">
@@ -52,10 +49,9 @@
             <irudia>img/4.png</irudia>
             <prk>
                 <pr id="p3">p3</pr>
-                <pr id="p7">p7</pr>
-                <pr id="p5">p5</pr>
+                <pr id="p11">p11</pr>
+                <pr id="p3">p3</pr>
                 <pr id="p2">p2</pr>
-                <pr id="p9">p9</pr>
             </prk>
         </gunea>
         <gunea id="5">
@@ -66,10 +62,9 @@
             <irudia>img/5.png</irudia>
             <prk>
                 <pr id="p3">p3</pr>
-                <pr id="p7">p7</pr>
-                <pr id="p5">p5</pr>
+                <pr id="p4">p4</pr>
+                <pr id="p8">p8</pr>
                 <pr id="p2">p2</pr>
-                <pr id="p9">p9</pr>
             </prk>
         </gunea>
         <gunea id="6">
@@ -80,10 +75,9 @@
             <irudia>img/6.png</irudia>
             <prk>
                 <pr id="p1">p1</pr>
-                <pr id="p12">p12</pr>
-                <pr id="p20">p20</pr>
+                <pr id="p7">p7</pr>
+                <pr id="p21">p21</pr>
                 <pr id="p8">p8</pr>
-                <pr id="p9">p9</pr>
             </prk>
         </gunea>
     </guneak>
@@ -118,6 +112,22 @@
             <izena>Beltza (Premium Quality)</izena>
             <argazkia>img/nwordcoffe.png</argazkia>
             <deskribapena> Kafe bikaina, premium quality Dolce Gabbana express limited edition</deskribapena>
+            <prezioa>7.30€</prezioa>
+            <kategoria>Kafe</kategoria>
+            <pisua>100G</pisua>
+        </produktua>
+        <produktua id="p7">
+            <izena>Mar-Mar Mild</izena>
+            <argazkia>img/marmar_mild.webp</argazkia>
+            <deskribapena> Gontz-Gontz Extreme baina umeentzat</deskribapena>
+            <prezioa>7.30€</prezioa>
+            <kategoria>Kafe</kategoria>
+            <pisua>100G</pisua>
+        </produktua>
+        <produktua id="p8">
+            <izena>BlueBull</izena>
+            <argazkia>img/bluebull.gif</argazkia>
+            <deskribapena> BlueBull, Redbull but made in china</deskribapena>
             <prezioa>7.30€</prezioa>
             <kategoria>Kafe</kategoria>
             <pisua>100G</pisua>

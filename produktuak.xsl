@@ -36,7 +36,7 @@
                 <div class="barra">
 
                     <h2>
-            \ Menu /
+                        \ Menu /
                         <img src="erronka1/Multimedia/bus.png" alt="Menu" width="80px" height="50px" />
                     </h2>
 
@@ -62,7 +62,9 @@
                         <xsl:for-each select="guneak/gunea">
                             <div class="karratu">
                                 <a>
-                                    <xsl:attribute name="href">produktuak_salmenta_guneak.php?id_sg=<xsl:value-of select="@id"></xsl:value-of>
+                                    <xsl:attribute name="href">
+                                        produktuak_salmenta_guneak.php?id_sg=
+                                        <xsl:value-of select="@id"></xsl:value-of>
                                     </xsl:attribute>
                                     <xsl:value-of select="izena"></xsl:value-of>
                                 </a>
@@ -71,23 +73,24 @@
                     </div>
 
                     <fieldset class="datuakgune">
-                        <xsl:for-each select="produktuak/produktua">
+                        <div class="divvvvvvvvv">
+                            <xsl:for-each select="produktuak/produktua">
 
+                                <div class="classaskodaude">
+                                    <p>
+                                        <xsl:value-of select="izena"></xsl:value-of>
+                                    </p>
 
-                            <p>
-                                <xsl:value-of select="izena"></xsl:value-of>
-                            </p>
-                            <div class="classaskodaude">
-                            <img class="imgphp1">
-                                <xsl:attribute name="src">
-                                    <xsl:value-of select="argazkia"></xsl:value-of>
-                                </xsl:attribute>
-                            </img>
+                                    <img class="imgphp1">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="argazkia"></xsl:value-of>
+                                        </xsl:attribute>
+                                    </img>
+                                </div>
+                            </xsl:for-each>
                         </div>
 
-                        </xsl:for-each>
                     </fieldset>
-
 
 
                 </div>
