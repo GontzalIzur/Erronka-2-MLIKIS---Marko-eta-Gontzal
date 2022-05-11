@@ -13,7 +13,6 @@
                 <meta name="author" content="Marko eta Gontzal" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <link rel="stylesheet" type="text/css" href="erronka1/CSS/css.css" />
-
             </head>
 
             <body class="produktuak">
@@ -77,8 +76,12 @@
                                         <xsl:value-of select="irudia"></xsl:value-of>
                                     </xsl:attribute>
                                 </img>
-                                <p>Termibuseko <xsl:value-of select="solairua"></xsl:value-of>. Solairuan</p>
-                                <xsl:value-of select="deskribapena"></xsl:value-of>
+                                <p style="font-family: fantasy; font-size: 30px">
+                                Termibuseko <xsl:value-of select="solairua"></xsl:value-of>. Solairuan
+                                    <br></br>
+                                    <br></br>
+                                |                                    <xsl:value-of select="deskribapena"></xsl:value-of> |
+                                </p>
                                 <iframe title="Gune1" width="450" height="350">
                                     <xsl:attribute name="src">
                                         <xsl:value-of select="ubikazioa"></xsl:value-of>
