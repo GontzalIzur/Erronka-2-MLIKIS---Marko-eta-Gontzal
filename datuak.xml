@@ -6,7 +6,7 @@
             <izena>Gunea 1</izena>
             <solairua>2</solairua>
             <ubikazioa>url</ubikazioa>
-            <irudia>/img/1.png</irudia>
+            <irudia>img/1.png</irudia>
             <produktuak>
                 <produktua>p3</produktua>
                 <produktua>p7</produktua>
@@ -19,7 +19,7 @@
             <izena>Gunea 2</izena>
             <solairua>3</solairua>
             <ubikazioa>url</ubikazioa>
-            <irudia>/img/2.png</irudia>
+            <irudia>img/2.png</irudia>
             <produktuak>
                 <produktua>p1</produktua>
                 <produktua>p12</produktua>
@@ -32,7 +32,7 @@
             <izena>Gunea 3</izena>
             <solairua>2</solairua>
             <ubikazioa>url</ubikazioa>
-            <irudia>/img/3.png</irudia>
+            <irudia>img/3.png</irudia>
             <produktuak>
                 <produktua>p3</produktua>
                 <produktua>p7</produktua>
@@ -45,7 +45,7 @@
             <izena>Gunea 4</izena>
             <solairua>3</solairua>
             <ubikazioa>url</ubikazioa>
-            <irudia>/img/4.png</irudia>
+            <irudia>img/4.png</irudia>
             <produktuak>
                 <produktua>p1</produktua>
                 <produktua>p12</produktua>
@@ -58,7 +58,7 @@
             <izena>Gunea 5</izena>
             <solairua>2</solairua>
             <ubikazioa>url</ubikazioa>
-            <irudia>/img/5.png</irudia>
+            <irudia>img/5.png</irudia>
             <produktuak>
                 <produktua>p3</produktua>
                 <produktua>p7</produktua>
@@ -71,7 +71,7 @@
             <izena>Gunea 6</izena>
             <solairua>3</solairua>
             <ubikazioa>url</ubikazioa>
-            <irudia>/img/6.png</irudia>
+            <irudia>img/6.png</irudia>
             <produktuak>
                 <produktua>p1</produktua>
                 <produktua>p12</produktua>

@@ -72,10 +72,14 @@
                     <fieldset class="datuakgune">
                         <xsl:for-each select="guneak/gunea">
                         <xsl:if test="@id=$id_sg">
-                            <xsl:value-of select="irudia"> </xsl:value-of>
-                            <xsl:value-of select="izena"> </xsl:value-of>
-                            <xsl:value-of select="solairua"> </xsl:value-of>
-                            <xsl:value-of select="ubikazioa"> </xsl:value-of>
+                            <img width="150px" height="150px">
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="irudia"></xsl:value-of>
+                                </xsl:attribute>
+                            </img>                            
+                            <xsl:value-of select="izena"></xsl:value-of>
+                            <xsl:value-of select="solairua"></xsl:value-of>
+                            <xsl:value-of select="ubikazioa"></xsl:value-of>
                         </xsl:if>
 
                             <!-- 
