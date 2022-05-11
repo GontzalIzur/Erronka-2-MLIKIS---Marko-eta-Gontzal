@@ -773,17 +773,17 @@ button.bilatu {
   );
   margin-top: 5vh;
   margin-bottom: 5vh;
-
-width: 800px;
-height: 900px;
-text-align: center;
-display: flex;
-flex-direction: column-reverse;
-justify-content: flex-start;
-align-items: center;
-height:fit-content;
-align-content: space-between;flex-wrap: nowrap;}
-
+  width: 800px;
+  height: 900px;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  height: fit-content;
+  align-content: space-between;
+  flex-wrap: nowrap;
+}
 
 /* Produktuak doazen lekuan hover egiterakoan irakurketa errazten da */
 

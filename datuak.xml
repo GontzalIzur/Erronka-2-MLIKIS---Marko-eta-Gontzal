@@ -4,7 +4,7 @@
     <guneak>
         <gunea id="1">
             <izena>Gunea 1</izena>
-            <desc></desc>
+            <deskribapena>Gune honetan kafe-ak saltzen dira</deskribapena>
             <solairua>2</solairua>
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d256.8160671563196!2d-2.949325427862091!3d43.26101720394129!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1652267089215!5m2!1ses!2ses</ubikazioa>
             <irudia>img/1.png</irudia>
@@ -18,7 +18,7 @@
         </gunea>
         <gunea id="2">
             <izena>Gunea 2</izena>
-            <desc></desc>
+            <deskribapena></deskribapena>
             <solairua>3</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/2.png</irudia>
@@ -32,7 +32,7 @@
         </gunea>
         <gunea id="3">
             <izena>Gunea 3</izena>
-            <desc></desc>
+            <deskribapena></deskribapena>
             <solairua>2</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/3.png</irudia>
@@ -46,7 +46,7 @@
         </gunea>
         <gunea id="4">
             <izena>Gunea 4</izena>
-            <desc></desc>
+            <deskribapena></deskribapena>
             <solairua>3</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/4.png</irudia>
@@ -60,7 +60,7 @@
         </gunea>
         <gunea id="5">
             <izena>Gunea 5</izena>
-            <desc></desc>
+            <deskribapena></deskribapena>
             <solairua>2</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/5.png</irudia>
@@ -74,7 +74,7 @@
         </gunea>
         <gunea id="6">
             <izena>Gunea 6</izena>
-            <desc></desc>
+            <deskribapena></deskribapena>
             <solairua>3</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/6.png</irudia>

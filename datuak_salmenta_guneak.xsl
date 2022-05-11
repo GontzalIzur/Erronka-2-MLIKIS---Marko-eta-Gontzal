@@ -77,9 +77,8 @@
                                         <xsl:value-of select="irudia"></xsl:value-of>
                                     </xsl:attribute>
                                 </img>
-                                <xsl:value-of select="izena"></xsl:value-of>
-                                <br></br>
-                                <p><xsl:value-of select="solairua"></xsl:value-of>. Solairuan</p>
+                                <p>Termibuseko <xsl:value-of select="solairua"></xsl:value-of>. Solairuan</p>
+                                <xsl:value-of select="deskribapena"></xsl:value-of>
                                 <iframe title="Gune1" width="450" height="350">
                                     <xsl:attribute name="src">
                                         <xsl:value-of select="ubikazioa"></xsl:value-of>
