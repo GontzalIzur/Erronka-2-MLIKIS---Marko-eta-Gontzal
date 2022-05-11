@@ -8,13 +8,13 @@
             <solairua>2</solairua>
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d256.8160671563196!2d-2.949325427862091!3d43.26101720394129!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1652267089215!5m2!1ses!2ses</ubikazioa>
             <irudia>img/1.png</irudia>
-            <produktuak>
-                <produktua>p3</produktua>
-                <produktua>p7</produktua>
-                <produktua>p4</produktua>
-                <produktua>p2</produktua>
-                <produktua>p13</produktua>
-            </produktuak>
+            <prk>
+                <pr id="p3">p3</pr>
+                <pr id="p7">p7</pr>
+                <pr id="p5">p5</pr>
+                <pr id="p2">p2</pr>
+                <pr id="p9">p9</pr>
+            </prk>
         </gunea>
         <gunea id="2">
             <izena>Gunea 2</izena>
@@ -22,13 +22,13 @@
             <solairua>3</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/2.png</irudia>
-            <produktuak>
-                <produktua>p1</produktua>
-                <produktua>p12</produktua>
-                <produktua>p20</produktua>
-                <produktua>p8</produktua>
-                <produktua>p9</produktua>
-            </produktuak>
+            <prk>
+                <pr id="p3">p3</pr>
+                <pr id="p7">p7</pr>
+                <pr id="p5">p5</pr>
+                <pr id="p2">p2</pr>
+                <pr id="p9">p9</pr>
+            </prk>
         </gunea>
         <gunea id="3">
             <izena>Gunea 3</izena>
@@ -36,13 +36,13 @@
             <solairua>2</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/3.png</irudia>
-            <produktuak>
-                <produktua>p3</produktua>
-                <produktua>p7</produktua>
-                <produktua>p4</produktua>
-                <produktua>p2</produktua>
-                <produktua>p13</produktua>
-            </produktuak>
+            <prk>
+                <pr id="p3">p3</pr>
+                <pr id="p7">p7</pr>
+                <pr id="p5">p5</pr>
+                <pr id="p2">p2</pr>
+                <pr id="p9">p9</pr>
+            </prk>
         </gunea>
         <gunea id="4">
             <izena>Gunea 4</izena>
@@ -50,13 +50,13 @@
             <solairua>3</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/4.png</irudia>
-            <produktuak>
-                <produktua>p1</produktua>
-                <produktua>p12</produktua>
-                <produktua>p20</produktua>
-                <produktua>p8</produktua>
-                <produktua>p9</produktua>
-            </produktuak>
+            <prk>
+                <pr id="p3">p3</pr>
+                <pr id="p7">p7</pr>
+                <pr id="p5">p5</pr>
+                <pr id="p2">p2</pr>
+                <pr id="p9">p9</pr>
+            </prk>
         </gunea>
         <gunea id="5">
             <izena>Gunea 5</izena>
@@ -64,13 +64,13 @@
             <solairua>2</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/5.png</irudia>
-            <produktuak>
-                <produktua>p3</produktua>
-                <produktua>p7</produktua>
-                <produktua>p4</produktua>
-                <produktua>p2</produktua>
-                <produktua>p13</produktua>
-            </produktuak>
+            <prk>
+                <pr id="p3">p3</pr>
+                <pr id="p7">p7</pr>
+                <pr id="p5">p5</pr>
+                <pr id="p2">p2</pr>
+                <pr id="p9">p9</pr>
+            </prk>
         </gunea>
         <gunea id="6">
             <izena>Gunea 6</izena>
@@ -78,13 +78,13 @@
             <solairua>3</solairua>
             <ubikazioa>url</ubikazioa>
             <irudia>img/6.png</irudia>
-            <produktuak>
-                <produktua>p1</produktua>
-                <produktua>p12</produktua>
-                <produktua>p20</produktua>
-                <produktua>p8</produktua>
-                <produktua>p9</produktua>
-            </produktuak>
+            <prk>
+                <pr id="p1">p1</pr>
+                <pr id="p12">p12</pr>
+                <pr id="p20">p20</pr>
+                <pr id="p8">p8</pr>
+                <pr id="p9">p9</pr>
+            </prk>
         </gunea>
     </guneak>
 

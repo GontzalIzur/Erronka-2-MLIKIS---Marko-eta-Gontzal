@@ -22,7 +22,7 @@
    $proc = new XSLTProcessor();
    $proc->importStylesheet($reglas);
 
-   $proc->setParameter('', 'id_tienda',$_GET['id_tien']);
+   $proc->setParameter('', 'id_sg',$_GET['id_sg']);
 
 
    echo $proc->transformToXML($datos);
