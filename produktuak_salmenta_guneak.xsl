@@ -62,7 +62,9 @@
             <xsl:for-each select="guneak/gunea">
               <div class="karratu">
                 <a>
-                  <xsl:attribute name="href">datuak_salmenta_guneak.php?id_sg=<xsl:value-of select="@id"></xsl:value-of>
+                  <xsl:attribute name="href">
+                    produktuak_salmenta_guneak.php?id_sg=
+                    <xsl:value-of select="@id"></xsl:value-of>
                   </xsl:attribute>
                   <xsl:value-of select="izena"></xsl:value-of>
                 </a>
@@ -71,8 +73,25 @@
           </div>
 
           <fieldset class="datuakgune">
-          </fieldset>
 
+            <xsl:for-each select="guneak/gunea">
+              <xsl:if test="@id=$id_sg">
+
+                <p>
+                  <xsl:value-of select="izena"></xsl:value-of>
+                </p>
+                <div class="classaskodaude">
+                  <img class="imgphp1">
+                    <xsl:attribute name="src">
+                      <xsl:value-of select="argazkia"></xsl:value-of>
+                    </xsl:attribute>
+                  </img>
+                </div>
+
+              </xsl:if>
+
+            </xsl:for-each>
+          </fieldset>
 
 
         </div>

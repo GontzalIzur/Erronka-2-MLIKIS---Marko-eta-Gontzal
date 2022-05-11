@@ -771,15 +771,19 @@ button.bilatu {
     rgba(255, 255, 255, 0.6),
     rgba(255, 255, 255, 0.6)
   );
-  margin-top: 10vh;
-  width: 800px;
-  height: 900px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+
+width: 800px;
+height: 900px;
+text-align: center;
+display: flex;
+flex-direction: column-reverse;
+justify-content: flex-start;
+align-items: center;
+height:fit-content;
+align-content: space-between;flex-wrap: nowrap;}
+
 
 /* Produktuak doazen lekuan hover egiterakoan irakurketa errazten da */
 
@@ -791,4 +795,14 @@ fieldset.datuakgune:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.imgphp1 {
+  height: fit-content;
+  width: 20vh;
+}
+
+.classaskodaude {
+  margin: -10px;
+  padding: 10px;
 }

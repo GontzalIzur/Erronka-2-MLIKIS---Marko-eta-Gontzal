@@ -77,12 +77,13 @@
                             <p>
                                 <xsl:value-of select="izena"></xsl:value-of>
                             </p>
-                            <img>
+                            <div class="classaskodaude">
+                            <img class="imgphp1">
                                 <xsl:attribute name="src">
                                     <xsl:value-of select="argazkia"></xsl:value-of>
                                 </xsl:attribute>
                             </img>
-
+                        </div>
 
                         </xsl:for-each>
                     </fieldset>
