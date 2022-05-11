@@ -20,7 +20,7 @@
                 <!-- Gure defektuzko header-a hemen titulua joango da -->
                 <header>
 
-                    <h1>| Gure Produktuak |</h1>
+                    <h1>| Gure Guneak |</h1>
 
                     <span class="index1">
                         <a href="GureProduktuakNight.html">
@@ -71,40 +71,22 @@
 
                     <fieldset class="datuakgune">
                         <xsl:for-each select="guneak/gunea">
-                        <xsl:if test="@id=$id_sg">
-                            <img width="150px" height="150px">
-                                <xsl:attribute name="src">
-                                    <xsl:value-of select="irudia"></xsl:value-of>
-                                </xsl:attribute>
-                            </img>                            
-                            <xsl:value-of select="izena"></xsl:value-of>
-                            <xsl:value-of select="solairua"></xsl:value-of>
-                            <xsl:value-of select="ubikazioa"></xsl:value-of>
-                        </xsl:if>
-
-                            <!-- 
-                        <xsl:if test="$id_sg=1">
-                            <xsl:for-each select="guneak/gunea[@id=1]">
-                            <xsl:value-of select="produktuak"> </xsl:value-of>
-                        
+                            <xsl:if test="@id=$id_sg">
+                                <img width="350px" height="300px">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of select="irudia"></xsl:value-of>
+                                    </xsl:attribute>
+                                </img>
+                                <xsl:value-of select="izena"></xsl:value-of>
+                                <br></br>
+                                <p><xsl:value-of select="solairua"></xsl:value-of>. Solairuan</p>
+                                <iframe title="Gune1" width="450" height="350">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of select="ubikazioa"></xsl:value-of>
+                                    </xsl:attribute>
+                                </iframe>
+                            </xsl:if>
                         </xsl:for-each>
-                        </xsl:if>
-                        <xsl:if test="$id_sg=2">
-                            <h1>Hello 2</h1>
-                        </xsl:if>
-                        <xsl:if test="$id_sg=3">
-                            <h1>Hello 3</h1>
-                        </xsl:if>
-                        <xsl:if test="$id_sg=4">
-                            <h1>Hello 4</h1>
-                        </xsl:if>
-                        <xsl:if test="$id_sg=5">
-                            <h1>Hello 5</h1>
-                        </xsl:if>
-                        <xsl:if test="$id_sg=6">
-                            <h1>Hello 6</h1>
-                        </xsl:if>
--->                        </xsl:for-each>
                     </fieldset>
 
                 </div>
