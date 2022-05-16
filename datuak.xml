@@ -9,10 +9,18 @@
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d363.1923077857009!2d-2.9499904792795872!3d43.261093883744884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e514d8a8da00f%3A0xca170c08b4e4af96!2sFitness%20Park%20Bilbao%20-%20Intermodal!5e0!3m2!1ses!2ses!4v1652699902246!5m2!1ses!2ses</ubikazioa>
             <irudia>img/1.png</irudia>
             <prk>
-                <pr id="p8">p8</pr>
-                <pr id="p21">p21</pr>
-                <pr id="p11">p11</pr>
-                <pr id="p4">p4</pr>
+                <pr id="p8">
+                    <kantitatea>0</kantitatea>
+                </pr>
+                <pr id="p21">
+                    <kantitatea>0</kantitatea>
+                </pr>
+                <pr id="p11">
+                    <kantitatea>0</kantitatea>
+                </pr>
+                <pr id="p4">
+                    <kantitatea>7</kantitatea>
+                </pr>
             </prk>
         </gunea>
         <gunea id="2">
@@ -22,10 +30,18 @@
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d363.1923025884703!2d-2.949838644093367!3d43.26109475498048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e512c470a44f1%3A0x81be782738807c12!2sEuropcar%20Bilbao%20Estaci%C3%B3n%20de%20autobuses%20Intermodal!5e0!3m2!1ses!2ses!4v1652699943648!5m2!1ses!2ses</ubikazioa>
             <irudia>img/2.png</irudia>
             <prk>
-                <pr id="p3">p3</pr>
-                <pr id="p7">p7</pr>
-                <pr id="p21">p21</pr>
-                <pr id="p2">p2</pr>
+                <pr id="p3">
+                    <kantitatea>3</kantitatea>
+                </pr>
+                <pr id="p7">
+                    <kantitatea>3</kantitatea>
+                </pr>
+                <pr id="p21">
+                    <kantitatea>9</kantitatea>
+                </pr>
+                <pr id="p2">
+                    <kantitatea>11</kantitatea>
+                </pr>
             </prk>
         </gunea>
         <gunea id="3">
@@ -35,11 +51,18 @@
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d431.91088894520004!2d-2.9497590417726327!3d43.26109213408211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e51dcb17d70c3%3A0x462f1efc7ac3d3a2!2sKorneer%20Cafe!5e0!3m2!1ses!2ses!4v1652699694256!5m2!1ses!2ses</ubikazioa>
             <irudia>img/3.png</irudia>
             <prk>
-                <pr id="p1">p1</pr>
-                <pr id="p2">p2</pr>
-                <pr id="p4">p4</pr>
-                <pr id="p11">p11</pr>
+                <pr id="p1">
+                    <kantitatea>42</kantitatea>
+                </pr>
+                <pr id="p2">
+                    <kantitatea>2</kantitatea>
+                </pr>
+                <pr id="p4">
+                    <kantitatea>0</kantitatea>
+                </pr>
+                <pr id="p11"></pr>
             </prk>
+
         </gunea>
         <gunea id="4">
             <izena>Gunea 4</izena>
@@ -48,10 +71,10 @@
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d431.9100633768087!2d-2.950364543773069!3d43.261208508804025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e5030f16b98c7%3A0x52ba4c453bcb9621!2sBilbao!5e0!3m2!1ses!2ses!4v1652699728935!5m2!1ses!2ses</ubikazioa>
             <irudia>img/4.png</irudia>
             <prk>
-                <pr id="p3">p3</pr>
-                <pr id="p11">p11</pr>
-                <pr id="p3">p3</pr>
-                <pr id="p2">p2</pr>
+                <pr id="p3"></pr>
+                <pr id="p11"></pr>
+                <pr id="p1"></pr>
+                <pr id="p2"></pr>
             </prk>
         </gunea>
         <gunea id="5">
@@ -61,10 +84,10 @@
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.8234471705418!2d-2.950241740239182!3d43.260974480332344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e5112752e4861%3A0x96ce3c4f2d058d6a!2sParking%20Intermodal%20Bilbao!5e0!3m2!1ses!2ses!4v1652699762636!5m2!1ses!2ses</ubikazioa>
             <irudia>img/5.png</irudia>
             <prk>
-                <pr id="p3">p3</pr>
-                <pr id="p4">p4</pr>
-                <pr id="p8">p8</pr>
-                <pr id="p2">p2</pr>
+                <pr id="p3"></pr>
+                <pr id="p4"></pr>
+                <pr id="p8"></pr>
+                <pr id="p2"></pr>
             </prk>
         </gunea>
         <gunea id="6">
@@ -74,10 +97,10 @@
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d363.19236604598075!2d-2.9500374179373487!3d43.2610841173076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e5167f7ec1867%3A0x2aaf34ea52929d39!2zw5FhbQ!5e0!3m2!1ses!2ses!4v1652699867352!5m2!1ses!2ses</ubikazioa>
             <irudia>img/6.png</irudia>
             <prk>
-                <pr id="p1">p1</pr>
-                <pr id="p7">p7</pr>
-                <pr id="p21">p21</pr>
-                <pr id="p8">p8</pr>
+                <pr id="p1"></pr>
+                <pr id="p7"></pr>
+                <pr id="p21"></pr>
+                <pr id="p8"></pr>
             </prk>
         </gunea>
     </guneak>
