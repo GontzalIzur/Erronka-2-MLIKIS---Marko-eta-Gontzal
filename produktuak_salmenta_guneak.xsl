@@ -88,12 +88,30 @@
                             <xsl:value-of select="argazkia"></xsl:value-of>
                         </xsl:attribute>
                     </img>
+
+                    
                 </div>
+
+                <p>
+                  <xsl:value-of select="deskribapena"></xsl:value-of>
+              </p>
+              <p>
+                <xsl:value-of select="prezioa"></xsl:value-of>
+            </p>
+            <p>
+              <xsl:value-of select="kategoria"></xsl:value-of>
+          </p>
+
+          <p>
+            <xsl:value-of select="pisua"></xsl:value-of>
+        </p>
 
                     </xsl:if>
                   </xsl:for-each>
 
                 </xsl:for-each>
+
+               
 
 
                 <!--   <xsl:for-each select="produktuak/produktua">

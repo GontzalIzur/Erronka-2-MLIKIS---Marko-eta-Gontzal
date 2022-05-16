@@ -9,10 +9,18 @@
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d256.8160671563196!2d-2.949325427862091!3d43.26101720394129!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1652267089215!5m2!1ses!2ses</ubikazioa>
             <irudia>img/1.png</irudia>
             <prk>
-                <pr id="p8">p8</pr>
-                <pr id="p21">p21</pr>
-                <pr id="p11">p11</pr>
-                <pr id="p4">p4</pr>
+                <pr id="p8">
+                    <kantitatea>0</kantitatea>
+                </pr>
+                <pr id="p21">
+                    <kantitatea>0</kantitatea>
+                </pr>
+                <pr id="p11">
+                    <kantitatea>0</kantitatea>
+                </pr>
+                <pr id="p4">
+                    <kantitatea>7</kantitatea>
+                </pr>
             </prk>
         </gunea>
         <gunea id="2">
@@ -22,10 +30,18 @@
             <ubikazioa>url</ubikazioa>
             <irudia>img/2.png</irudia>
             <prk>
-                <pr id="p3">p3</pr>
-                <pr id="p7">p7</pr>
-                <pr id="p21">p21</pr>
-                <pr id="p2">p2</pr>
+                <pr id="p3">
+                    <kantitatea>3</kantitatea>
+                </pr>
+                <pr id="p7">
+                    <kantitatea>3</kantitatea>
+                </pr>
+                <pr id="p21">
+                    <kantitatea>9</kantitatea>
+                </pr>
+                <pr id="p2">
+                    <kantitatea>11</kantitatea>
+                </pr>
             </prk>
         </gunea>
         <gunea id="3">
@@ -35,11 +51,18 @@
             <ubikazioa>url</ubikazioa>
             <irudia>img/3.png</irudia>
             <prk>
-                <pr id="p1">p1</pr>
-                <pr id="p2">p2</pr>
-                <pr id="p4">p4</pr>
-                <pr id="p11">p11</pr>
+                <pr id="p1">
+                    <kantitatea>42</kantitatea>
+                </pr>
+                <pr id="p2">
+                    <kantitatea>2</kantitatea>
+                </pr>
+                <pr id="p4">
+                    <kantitatea>0</kantitatea>
+                </pr>
+                <pr id="p11"></pr>
             </prk>
+
         </gunea>
         <gunea id="4">
             <izena>Gunea 4</izena>
@@ -48,10 +71,10 @@
             <ubikazioa>url</ubikazioa>
             <irudia>img/4.png</irudia>
             <prk>
-                <pr id="p3">p3</pr>
-                <pr id="p11">p11</pr>
-                <pr id="p3">p3</pr>
-                <pr id="p2">p2</pr>
+                <pr id="p3"></pr>
+                <pr id="p11"></pr>
+                <pr id="p1"></pr>
+                <pr id="p2"></pr>
             </prk>
         </gunea>
         <gunea id="5">
@@ -61,10 +84,10 @@
             <ubikazioa>url</ubikazioa>
             <irudia>img/5.png</irudia>
             <prk>
-                <pr id="p3">p3</pr>
-                <pr id="p4">p4</pr>
-                <pr id="p8">p8</pr>
-                <pr id="p2">p2</pr>
+                <pr id="p3"></pr>
+                <pr id="p4"></pr>
+                <pr id="p8"></pr>
+                <pr id="p2"></pr>
             </prk>
         </gunea>
         <gunea id="6">
@@ -74,10 +97,10 @@
             <ubikazioa>url</ubikazioa>
             <irudia>img/6.png</irudia>
             <prk>
-                <pr id="p1">p1</pr>
-                <pr id="p7">p7</pr>
-                <pr id="p21">p21</pr>
-                <pr id="p8">p8</pr>
+                <pr id="p1"></pr>
+                <pr id="p7"></pr>
+                <pr id="p21"></pr>
+                <pr id="p8"></pr>
             </prk>
         </gunea>
     </guneak>
