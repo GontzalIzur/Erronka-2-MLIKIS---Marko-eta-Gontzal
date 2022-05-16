@@ -62,9 +62,7 @@
                         <xsl:for-each select="guneak/gunea">
                             <div class="karratu">
                                 <a>
-                                    <xsl:attribute name="href">
-                                        produktuak_salmenta_guneak.php?id_sg=
-                                        <xsl:value-of select="@id"></xsl:value-of>
+                                    <xsl:attribute name="href">produktuak_salmenta_guneak.php?id_sg=<xsl:value-of select="@id"></xsl:value-of>
                                     </xsl:attribute>
                                     <xsl:value-of select="izena"></xsl:value-of>
                                 </a>
