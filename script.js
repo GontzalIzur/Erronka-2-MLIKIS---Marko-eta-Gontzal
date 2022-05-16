@@ -24,8 +24,8 @@ function formularioaErakutsi() {
   }
 }
 
-function f2(){
-
+function TextAreaErakutsi(){
+       
 }
 
 function ASCII63() {
