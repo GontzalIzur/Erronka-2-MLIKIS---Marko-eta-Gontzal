@@ -19,9 +19,11 @@ header {
   /* barruko elementuak erdian jartzen ditu flex kutxa batean */
   align-items: center;
   background: rgb(178, 196, 205);
-  background: linear-gradient(0deg,
-      rgba(178, 196, 205, 1) 0%,
-      rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(178, 196, 205, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
   border-bottom: 3px solid #061439;
 }
 
@@ -42,7 +44,7 @@ section.index {
   align-items: center;
 }
 
-section>p {
+section > p {
   text-align: justify;
 }
 
@@ -92,13 +94,13 @@ section>p {
 .barra:hover {
   width: 100%;
   height: 90%;
-  background: rgb(178,
-      196,
-      205);
+  background: rgb(178, 196, 205);
   /* Gradient-ak erabili ditugu orrien zehar kolore animatuagoak ipintzeko */
-  background: linear-gradient(0deg,
-      rgba(178, 196, 205, 1) 0%,
-      rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(178, 196, 205, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
   border: solid 1px black;
 }
 
@@ -147,9 +149,11 @@ footer {
   width: 100%;
   height: 80px;
   background: rgb(178, 196, 205);
-  background: linear-gradient(0deg,
-      rgba(178, 196, 205, 1) 0%,
-      rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(178, 196, 205, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -185,17 +189,21 @@ article.kontsultak {
   float: left;
   margin-left: 10%;
   margin-bottom: 10%;
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)),
+      rgba(255, 255, 255, 0.6)
+    ),
     url("../MULTIMEDIA/karkanpo1.jpg") repeat fixed;
   background-size: 700px;
 }
 
 .karkampo1:hover {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)),
+      rgba(255, 255, 255, 0.3)
+    ),
     url("../MULTIMEDIA/karkanpo1.jpg") repeat fixed;
   background-size: 700px;
 }
@@ -209,17 +217,21 @@ article.kontsultak {
   float: left;
   margin-left: 10%;
   margin-bottom: 10%;
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)),
+      rgba(255, 255, 255, 0.6)
+    ),
     url("../MULTIMEDIA/productos.jpg") repeat fixed;
   background-size: 700px;
 }
 
 .karkampo2:hover {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)),
+      rgba(255, 255, 255, 0.3)
+    ),
     url("../MULTIMEDIA/productos.jpg") repeat fixed;
   background-size: 700px;
 }
@@ -233,17 +245,21 @@ article.kontsultak {
   float: left;
   margin-left: 10%;
   margin-bottom: 10%;
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)),
+      rgba(255, 255, 255, 0.6)
+    ),
     url("../MULTIMEDIA/repar.jpg") no-repeat fixed;
   background-size: 1900px;
 }
 
 .karkampo3:hover {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)),
+      rgba(255, 255, 255, 0.3)
+    ),
     url("../MULTIMEDIA/repar.jpg") no-repeat fixed;
   background-size: 1900px;
 }
@@ -257,17 +273,21 @@ article.kontsultak {
   float: left;
   margin-left: 10%;
   margin-bottom: 10%;
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)),
+      rgba(255, 255, 255, 0.6)
+    ),
     url("../MULTIMEDIA/horario.png") repeat fixed;
   background-size: 700px;
 }
 
 .karkampo4:hover {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)),
+      rgba(255, 255, 255, 0.3)
+    ),
     url("../MULTIMEDIA/horario.png") repeat fixed;
   background-size: 700px;
 }
@@ -277,7 +297,7 @@ article.kontsultak {
   justify-content: center;
 }
 
-.karbarru>h2 {
+.karbarru > h2 {
   font-size: 30px;
   font-weight: 500px;
   line-height: 85px;
@@ -290,9 +310,11 @@ footer.fixed {
   width: 100%;
   height: 80px;
   background: rgb(178, 196, 205);
-  background: linear-gradient(0deg,
-      rgba(178, 196, 205, 1) 0%,
-      rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(178, 196, 205, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -317,9 +339,11 @@ div.index {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-  background: linear-gradient(0deg,
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6));
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+  );
   padding: 5%;
 }
 
@@ -356,7 +380,7 @@ ul.index {
 }
 
 /* Orri argazki propietateak */
-section>img.index {
+section > img.index {
   width: 300px;
   height: 300px;
   border: solid 2px black;
@@ -436,9 +460,11 @@ span.index2 {
   width: 100%;
   height: 90%;
   background: rgb(13, 13, 13);
-  background: linear-gradient(0deg,
-      rgba(13, 13, 13, 1) 0%,
-      rgba(66, 66, 66, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(13, 13, 13, 1) 0%,
+    rgba(66, 66, 66, 1) 100%
+  );
   border: solid 1px black;
 }
 
@@ -490,9 +516,11 @@ span.index2 {
   justify-content: center;
   align-items: center;
   background: rgb(13, 13, 13);
-  background: linear-gradient(0deg,
-      rgba(13, 13, 13, 1) 0%,
-      rgba(66, 66, 66, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(13, 13, 13, 1) 0%,
+    rgba(66, 66, 66, 1) 100%
+  );
   border-bottom: 3px solid white;
 }
 
@@ -504,9 +532,11 @@ footer.index {
   width: 100%;
   height: 80px;
   background: rgb(13, 13, 13);
-  background: linear-gradient(0deg,
-      rgba(13, 13, 13, 1) 0%,
-      rgba(66, 66, 66, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(13, 13, 13, 1) 0%,
+    rgba(66, 66, 66, 1) 100%
+  );
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -524,9 +554,11 @@ footer.index {
 }
 
 body.produktuak {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)),
+      rgba(255, 255, 255, 0.3)
+    ),
     url("../MULTIMEDIA/fondo1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -535,9 +567,11 @@ body.produktuak {
 }
 
 article.produktuak {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)),
+      rgba(255, 255, 255, 0.3)
+    ),
     url("../MULTIMEDIA/fondo1.jpg") no-repeat center center fixed;
   /* Argazkiari gradient garden bat modukoa aplikatzen zaio bakground image-nean sentzasioa emateko low opacity duela */
   -webkit-background-size: cover;
@@ -548,9 +582,11 @@ article.produktuak {
 
 fieldset.produktuak {
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-  background: linear-gradient(0deg,
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6));
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+  );
   width: 288px;
 }
 
@@ -681,9 +717,11 @@ figcaption:hover {
 }
 
 .body1 {
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)),
+      rgba(255, 255, 255, 0.3)
+    ),
     url("../MULTIMEDIA/fondo1.jpg") no-repeat center center fixed;
   /* -webkit, -moz eta propietate hauek ez dira beharrezkoak baina nabigatzaile guztietan funtzionatu duela ziurtatzen du */
   -webkit-background-size: cover;
@@ -757,9 +795,11 @@ button.bilatu {
 
 .datuakgune {
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-  background: linear-gradient(0deg,
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6));
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+  );
   margin-top: 5vh;
   margin-bottom: 5vh;
   width: 800px;
@@ -808,7 +848,6 @@ fieldset.datuakgune:hover {
   padding-top: 5px;
 }
 
-
 .asideform {
   display: flex;
   padding-top: 2vh;
@@ -837,36 +876,30 @@ fieldset.datuakgune:hover {
   cursor: pointer;
   overflow: hidden;
   outline: none;
-  
 }
 
-
-
-@keyframes myAnimation{
-
-  0%{
-      display: block;
-      opacity: 100%;
-      width: 1200px;
-      height: 1200px;
-
-    }
-  100%{
+@keyframes myAnimation {
+  0% {
+    display: block;
+    opacity: 100%;
+    width: 1200px;
+    height: 1200px;
+  }
+  100% {
     display: none;
     opacity: 0;
     width: 1200px;
     height: 1200px;
-
   }
 }
 
-.jumpscare{
-    padding-top: 100px;
-    padding-left: 420px;
-    position: absolute;
-    z-index: 1000;
-    display: none;
-    animation-name: myAnimation;
-    animation-duration: 800ms;
-    animation-fill-mode: forwards;
+.jumpscare {
+  padding-top: 100px;
+  padding-left: 420px;
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  animation-name: myAnimation;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
 }
