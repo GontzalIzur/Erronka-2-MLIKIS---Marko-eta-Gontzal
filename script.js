@@ -1,4 +1,4 @@
-function f1() {
+function formularioaErakutsi() {
   let a = document.getElementById("formu").value;
   console.log(a);
   if (a == "Lan") {
@@ -24,7 +24,7 @@ function f1() {
   }
 }
 
-function f2(){
+function TextAreaErakutsi(){
        
 }
 
