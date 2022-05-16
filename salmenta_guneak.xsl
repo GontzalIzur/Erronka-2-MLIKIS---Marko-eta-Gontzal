@@ -70,7 +70,7 @@
             </xsl:for-each>
           </div>
 
-          <fieldset class="datuakgune">
+          <fieldset class="datuakGune">
             <img src="img/GUNEAK.png" alt="GUNEAK"/>
           </fieldset>
 
