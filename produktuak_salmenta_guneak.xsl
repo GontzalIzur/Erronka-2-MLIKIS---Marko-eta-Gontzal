@@ -71,7 +71,7 @@
             </xsl:for-each>
           </div>
 
-          <fieldset class="datuakgune">
+          <fieldset class="datuakProd">
 
             <xsl:for-each select="guneak/gunea">
               <xsl:if test="@id=$id_sg">
@@ -82,30 +82,27 @@
                       <p>
                         <xsl:value-of select="izena"></xsl:value-of>
                       </p>
+
                       <div class="classaskodaude">
                         <img class="imgphp1">
                           <xsl:attribute name="src">
                             <xsl:value-of select="argazkia"></xsl:value-of>
                           </xsl:attribute>
                         </img>
-
                       </div>
 
 
-                      <ul>
-                        <li>
-                        <xsl:value-of select="deskribapena"></xsl:value-of>
-                      </li>                      <li>
-                        <xsl:value-of select="prezioa"></xsl:value-of>
-                      </li>
-                    <li>
-                        <xsl:value-of select="kategoria"></xsl:value-of>
-                      </li>
+                      <xsl:value-of select="deskribapena"></xsl:value-of>
 
-                      <li>
-                        <xsl:value-of select="pisua"></xsl:value-of>
-                      </li>
-                      </ul>
+                      <p>Prezioa: <xsl:value-of select="prezioa"></xsl:value-of>
+                      </p>
+
+                      <p>Mota: <xsl:value-of select="kategoria"></xsl:value-of>
+                      </p>
+
+                      <p>Pisua: <xsl:value-of select="pisua"></xsl:value-of>
+                      </p>
+
 
                     </xsl:if>
                   </xsl:for-each>
