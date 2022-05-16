@@ -30,8 +30,6 @@ function TextAreaErakutsi(){
 
 function ASCII63() {
   document.getElementById("hihi").style.display = "inline";
-  var audio = new Audio(
-    "erronka1/MULTIMEDIA/ooo popeyes biscuits AHH echoed Sound Effect.mp3"
-  );
+  var audio = new Audio("erronka1/MULTIMEDIA/augh.mp3");
   audio.play();
 }
