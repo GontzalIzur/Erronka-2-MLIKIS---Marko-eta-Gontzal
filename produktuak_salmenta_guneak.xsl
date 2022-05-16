@@ -81,37 +81,37 @@
                     <xsl:if test="@id=$idp">
                       <p>
                         <xsl:value-of select="izena"></xsl:value-of>
-                    </p>
-                    <div class="classaskodaude">
-                    <img class="imgphp1">
-                        <xsl:attribute name="src">
+                      </p>
+                      <div class="classaskodaude">
+                        <img class="imgphp1">
+                          <xsl:attribute name="src">
                             <xsl:value-of select="argazkia"></xsl:value-of>
-                        </xsl:attribute>
-                    </img>
+                          </xsl:attribute>
+                        </img>
 
-                    
-                </div>
+                      </div>
 
-                <p>
-                  <xsl:value-of select="deskribapena"></xsl:value-of>
-              </p>
-              <p>
-                <xsl:value-of select="prezioa"></xsl:value-of>
-            </p>
-            <p>
-              <xsl:value-of select="kategoria"></xsl:value-of>
-          </p>
 
-          <p>
-            <xsl:value-of select="pisua"></xsl:value-of>
-        </p>
+                      <p>
+                        <xsl:value-of select="deskribapena"></xsl:value-of>
+                      </p>
+                      <p>
+                        <xsl:value-of select="prezioa"></xsl:value-of>
+                      </p>
+                      <p>
+                        <xsl:value-of select="kategoria"></xsl:value-of>
+                      </p>
+
+                      <p>
+                        <xsl:value-of select="pisua"></xsl:value-of>
+                      </p>
 
                     </xsl:if>
                   </xsl:for-each>
-
+                  <p>
+                    <xsl:value-of select="kantitatea"></xsl:value-of>
+                  </p>
                 </xsl:for-each>
-
-               
 
 
                 <!--   <xsl:for-each select="produktuak/produktua">

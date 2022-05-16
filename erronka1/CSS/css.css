@@ -807,3 +807,66 @@ fieldset.datuakgune:hover {
   flex-wrap: wrap;
   padding-top: 5px;
 }
+
+
+.asideform {
+  display: flex;
+  padding-top: 2vh;
+  background-color: #00b712;
+  width: fit-content;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 45%;
+  height: 7vh;
+  padding: 17px;
+  margin-top: 2vh;
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hehe {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-top: 50%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  
+}
+
+
+
+@keyframes myAnimation{
+
+  0%{
+      display: block;
+      opacity: 100%;
+      width: 1200px;
+      height: 1200px;
+
+    }
+  100%{
+    display: none;
+    opacity: 0;
+    width: 1200px;
+    height: 1200px;
+
+  }
+}
+
+.jumpscare{
+    padding-top: 100px;
+    padding-left: 420px;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    animation-name: myAnimation;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+}
