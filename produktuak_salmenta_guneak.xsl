@@ -91,21 +91,18 @@
                         </img>
                       </div>
 
-                      <ul>
-                        <li>
-                          <xsl:value-of select="deskribapena"></xsl:value-of>
-                        </li>
-                        <li>
-                          <xsl:value-of select="prezioa"></xsl:value-of>
-                        </li>
-                        <li>
-                          <xsl:value-of select="kategoria"></xsl:value-of>
-                        </li>
 
-                        <li>
-                          <xsl:value-of select="pisua"></xsl:value-of>
-                        </li>
-                      </ul>
+                      <xsl:value-of select="deskribapena"></xsl:value-of>
+
+                      <p>Prezioa: <xsl:value-of select="prezioa"></xsl:value-of>
+                      </p>
+
+                      <p>Mota: <xsl:value-of select="kategoria"></xsl:value-of>
+                      </p>
+
+                      <p>Pisua: <xsl:value-of select="pisua"></xsl:value-of>
+                      </p>
+
 
                     </xsl:if>
                   </xsl:for-each>

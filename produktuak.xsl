@@ -70,7 +70,7 @@
                         </xsl:for-each>
                     </div>
 
-                    <fieldset class="datuakgune">
+                    <fieldset class="datuakProd">
                         <div class="divvvvvvvvv">
                             <xsl:for-each select="produktuak/produktua">
 
