@@ -114,24 +114,6 @@
                   </p>
                 </xsl:for-each>
 
-
-                <!--   <xsl:for-each select="produktuak/produktua">
-              <xsl:if test="@id=$id_sg">
-
-                <p>
-                  <xsl:value-of select="[@id=/guneak/gunea/produktuak/produktua]/izena"></xsl:value-of>
-                </p>
-                <div class="classaskodaude">
-                  <img class="imgphp1">
-                    <xsl:attribute name="src">
-                      <xsl:value-of select="/produktuak/produktua[@id=/guneak/gunea/produktuak/produktua]/argazkia"></xsl:value-of>
-                    </xsl:attribute>
-                  </img>
-                </div>
-
-              </xsl:if>
-
-            </xsl:for-each>-->
               </xsl:if>
             </xsl:for-each>
 
