@@ -92,19 +92,20 @@
                       </div>
 
 
-                      <p>
+                      <ul>
+                        <li>
                         <xsl:value-of select="deskribapena"></xsl:value-of>
-                      </p>
-                      <p>
+                      </li>                      <li>
                         <xsl:value-of select="prezioa"></xsl:value-of>
-                      </p>
-                      <p>
+                      </li>
+                    <li>
                         <xsl:value-of select="kategoria"></xsl:value-of>
-                      </p>
+                      </li>
 
-                      <p>
+                      <li>
                         <xsl:value-of select="pisua"></xsl:value-of>
-                      </p>
+                      </li>
+                      </ul>
 
                     </xsl:if>
                   </xsl:for-each>
