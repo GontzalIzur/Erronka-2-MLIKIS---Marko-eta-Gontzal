@@ -742,8 +742,6 @@ button.bilatu {
   max-width: fit-content;
   font-size: 30px;
   font-weight: bold;
-  padding-left: 2vh;
-  padding-top: 10vh;
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -768,10 +766,9 @@ button.bilatu {
   height: 900px;
   text-align: center;
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  height: fit-content;
   align-content: space-between;
   flex-wrap: nowrap;
 }
