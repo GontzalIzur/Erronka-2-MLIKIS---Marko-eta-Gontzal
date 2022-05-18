@@ -75,42 +75,45 @@
 
             <xsl:for-each select="guneak/gunea">
               <xsl:if test="@id=$id_sg">
-                <xsl:for-each select="prk/pr">
-                  <xsl:variable name="idp" select="@id"></xsl:variable>
-                  <xsl:for-each select="//produktuak/produktua">
-                    <xsl:if test="@id=$idp">
-                      <p>
-                        <xsl:value-of select="izena"></xsl:value-of>
+                <div class="div-produktuak">
+                  <xsl:for-each select="prk/pr">
+                    <xsl:variable name="idp" select="@id"></xsl:variable>
+                    <div class="div-produktu-barru">
+                      <xsl:for-each select="//produktuak/produktua">
+                        <xsl:if test="@id=$idp">
+                          <p>
+                            <xsl:value-of select="izena"></xsl:value-of>
+                          </p>
+
+                          <div class="classaskodaude">
+                            <img class="imgphp1">
+                              <xsl:attribute name="src">
+                                <xsl:value-of select="argazkia"></xsl:value-of>
+                              </xsl:attribute>
+                            </img>
+                          </div>
+
+
+                          <xsl:value-of select="deskribapena"></xsl:value-of>
+
+                          <p>Prezioa: <xsl:value-of select="prezioa"></xsl:value-of>
+                          </p>
+
+                          <p>Mota: <xsl:value-of select="kategoria"></xsl:value-of>
+                          </p>
+
+                          <p>Pisua: <xsl:value-of select="pisua"></xsl:value-of>
+                          </p>
+
+                        </xsl:if>
+                      </xsl:for-each>
+
+                      <p>Kantitatea:
+                        <xsl:value-of select="kantitatea"></xsl:value-of>
                       </p>
-
-                      <div class="classaskodaude">
-                        <img class="imgphp1">
-                          <xsl:attribute name="src">
-                            <xsl:value-of select="argazkia"></xsl:value-of>
-                          </xsl:attribute>
-                        </img>
-                      </div>
-
-
-                      <xsl:value-of select="deskribapena"></xsl:value-of>
-
-                      <p>Prezioa: <xsl:value-of select="prezioa"></xsl:value-of>
-                      </p>
-
-                      <p>Mota: <xsl:value-of select="kategoria"></xsl:value-of>
-                      </p>
-
-                      <p>Pisua: <xsl:value-of select="pisua"></xsl:value-of>
-                      </p>
-
-
-                    </xsl:if>
+                    </div>
                   </xsl:for-each>
-                  <p>
-                    <xsl:value-of select="kantitatea"></xsl:value-of>
-                  </p>
-                </xsl:for-each>
-
+                </div>
               </xsl:if>
             </xsl:for-each>
 

@@ -170,128 +170,6 @@ footer {
   margin-left: 15px;
 }
 
-/*******************************************
-* Kontsulta orriko div-ei formatua emateko *
-********************************************/
-
-article.kontsultak {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.karkampo1 {
-  border: solid black 1px;
-  border-radius: 5px;
-  height: 150px;
-  width: 350px;
-  padding: 2% 5%;
-  float: left;
-  margin-left: 10%;
-  margin-bottom: 10%;
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
-    url("../MULTIMEDIA/karkanpo1.jpg") repeat fixed;
-  background-size: 700px;
-}
-
-.karkampo1:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("../MULTIMEDIA/karkanpo1.jpg") repeat fixed;
-  background-size: 700px;
-}
-
-.karkampo2 {
-  border: solid black 1px;
-  border-radius: 5px;
-  height: 150px;
-  width: 350px;
-  padding: 2% 5%;
-  float: left;
-  margin-left: 10%;
-  margin-bottom: 10%;
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
-    url("../MULTIMEDIA/productos.jpg") repeat fixed;
-  background-size: 700px;
-}
-
-.karkampo2:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("../MULTIMEDIA/productos.jpg") repeat fixed;
-  background-size: 700px;
-}
-
-.karkampo3 {
-  border: solid black 1px;
-  border-radius: 5px;
-  height: 150px;
-  width: 350px;
-  padding: 2% 5%;
-  float: left;
-  margin-left: 10%;
-  margin-bottom: 10%;
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
-    url("../MULTIMEDIA/repar.jpg") no-repeat fixed;
-  background-size: 1900px;
-}
-
-.karkampo3:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("../MULTIMEDIA/repar.jpg") no-repeat fixed;
-  background-size: 1900px;
-}
-
-.karkampo4 {
-  border: solid black 1px;
-  border-radius: 5px;
-  height: 150px;
-  width: 350px;
-  padding: 2% 5%;
-  float: left;
-  margin-left: 10%;
-  margin-bottom: 10%;
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
-    url("../MULTIMEDIA/horario.png") repeat fixed;
-  background-size: 700px;
-}
-
-.karkampo4:hover {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("../MULTIMEDIA/horario.png") repeat fixed;
-  background-size: 700px;
-}
-
 .karbarru {
   display: flex;
   justify-content: center;
@@ -802,8 +680,8 @@ button.bilatu {
   );
   margin-top: 5vh;
   margin-bottom: 5vh;
-  width: 800px;
-  height: 900px;
+  width: 950px;
+  height: fit-content;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -822,7 +700,7 @@ button.bilatu {
   );
   margin-top: 5vh;
   margin-bottom: 5vh;
-  width: 800px;
+  width: 950px;
   height: fit-content;
   text-align: center;
   display: flex;
@@ -856,9 +734,10 @@ fieldset.datuakgune:hover {
   border: solid crimson 5px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: fit-content;
-  width: fit-content;
+  height: 350px;
+  width: 180px;
 }
 
 .divvvvvvvvv {
@@ -866,6 +745,18 @@ fieldset.datuakgune:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 5px;
+}
+
+.div-produktuak {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.div-produktu-barru {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .asideform {
@@ -925,5 +816,5 @@ fieldset.datuakgune:hover {
 }
 
 fieldset:hover {
-  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74% );
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
