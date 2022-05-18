@@ -7,7 +7,7 @@
             <deskribapena>Fitness Park Bilbao atean lokatuta dago</deskribapena>
             <solairua>2</solairua>
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d363.1923077857009!2d-2.9499904792795872!3d43.261093883744884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e514d8a8da00f%3A0xca170c08b4e4af96!2sFitness%20Park%20Bilbao%20-%20Intermodal!5e0!3m2!1ses!2ses!4v1652699902246!5m2!1ses!2ses</ubikazioa>
-            <irudia>img/1.png</irudia>
+            <irudia>MULTIMEDIA/1.png</irudia>
             <prk>
                 <pr id="p8">
                     <kantitatea>999</kantitatea>
@@ -28,7 +28,7 @@
             <deskribapena>Europcar Bilbao barruan sartu baino lehen</deskribapena>
             <solairua>3</solairua>
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d363.1923025884703!2d-2.949838644093367!3d43.26109475498048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e512c470a44f1%3A0x81be782738807c12!2sEuropcar%20Bilbao%20Estaci%C3%B3n%20de%20autobuses%20Intermodal!5e0!3m2!1ses!2ses!4v1652699943648!5m2!1ses!2ses</ubikazioa>
-            <irudia>img/2.png</irudia>
+            <irudia>MULTIMEDIA/2.png</irudia>
             <prk>
                 <pr id="p3">
                     <kantitatea>3</kantitatea>
@@ -49,7 +49,7 @@
             <deskribapena>Korneer Cafe barruan lokatuta</deskribapena>
             <solairua>2</solairua>
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d431.91088894520004!2d-2.9497590417726327!3d43.26109213408211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e51dcb17d70c3%3A0x462f1efc7ac3d3a2!2sKorneer%20Cafe!5e0!3m2!1ses!2ses!4v1652699694256!5m2!1ses!2ses</ubikazioa>
-            <irudia>img/3.png</irudia>
+            <irudia>MULTIMEDIA/3.png</irudia>
             <prk>
                 <pr id="p1">
                     <kantitatea>42</kantitatea>
@@ -71,7 +71,7 @@
             <deskribapena>Termibuseko mendebaldeko atean lokatuta</deskribapena>
             <solairua>3</solairua>
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d431.9100633768087!2d-2.950364543773069!3d43.261208508804025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e5030f16b98c7%3A0x52ba4c453bcb9621!2sBilbao!5e0!3m2!1ses!2ses!4v1652699728935!5m2!1ses!2ses</ubikazioa>
-            <irudia>img/4.png</irudia>
+            <irudia>MULTIMEDIA/4.png</irudia>
             <prk>
                 <pr id="p3">
                     <kantitatea>23</kantitatea>
@@ -92,7 +92,7 @@
             <deskribapena>Gune hau termibuseko parkinean dago lokatuta</deskribapena>
             <solairua>-1</solairua>
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.8234471705418!2d-2.950241740239182!3d43.260974480332344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e5112752e4861%3A0x96ce3c4f2d058d6a!2sParking%20Intermodal%20Bilbao!5e0!3m2!1ses!2ses!4v1652699762636!5m2!1ses!2ses</ubikazioa>
-            <irudia>img/5.png</irudia>
+            <irudia>MULTIMEDIA/5.png</irudia>
             <prk>
                 <pr id="p3">
                     <kantitatea>95</kantitatea>
@@ -113,7 +113,7 @@
             <deskribapena>Ñam jatetxearen atean lokatuta</deskribapena>
             <solairua>1</solairua>
             <ubikazioa>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d363.19236604598075!2d-2.9500374179373487!3d43.2610841173076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e5167f7ec1867%3A0x2aaf34ea52929d39!2zw5FhbQ!5e0!3m2!1ses!2ses!4v1652699867352!5m2!1ses!2ses</ubikazioa>
-            <irudia>img/6.png</irudia>
+            <irudia>MULTIMEDIA/6.png</irudia>
             <prk>
                 <pr id="p1">
                     <kantitatea>74</kantitatea>
@@ -135,7 +135,7 @@
     <produktuak>
         <produktua id="p1">
             <izena>Expresso</izena>
-            <argazkia>img/expreso.png</argazkia>
+            <argazkia>MULTIMEDIA/expreso.png</argazkia>
             <deskribapena> Kafe bikaina, hawaiiz estalia</deskribapena>
             <prezioa>2.30€</prezioa>
             <kategoria>Kafe</kategoria>
@@ -143,7 +143,7 @@
         </produktua>
         <produktua id="p2">
             <izena>Eskuz irinduta</izena>
-            <argazkia>img/mano.png</argazkia>
+            <argazkia>MULTIMEDIA/mano.png</argazkia>
             <deskribapena> Kafe bikaina, eskuz irinduta</deskribapena>
             <prezioa>4.20€</prezioa>
             <kategoria>Kafe</kategoria>
@@ -151,7 +151,7 @@
         </produktua>
         <produktua id="p3">
             <izena>Latte Marrazkiarekin</izena>
-            <argazkia>img/marrazkia.png</argazkia>
+            <argazkia>MULTIMEDIA/marrazkia.png</argazkia>
             <deskribapena> Kafe bikaina, marrazkitxu batekin</deskribapena>
             <prezioa>5.20€</prezioa>
             <kategoria>Kafe</kategoria>
@@ -159,7 +159,7 @@
         </produktua>
         <produktua id="p4">
             <izena>Beltza (Premium Quality)</izena>
-            <argazkia>img/nwordcoffe.png</argazkia>
+            <argazkia>MULTIMEDIA/nwordcoffe.png</argazkia>
             <deskribapena> Kafe bikaina, premium quality Dolce Gabbana express limited edition</deskribapena>
             <prezioa>7.30€</prezioa>
             <kategoria>Kafe</kategoria>
@@ -167,7 +167,7 @@
         </produktua>
         <produktua id="p7">
             <izena>Mar-Mar Mild</izena>
-            <argazkia>img/marmar_mild.webp</argazkia>
+            <argazkia>MULTIMEDIA/marmar_mild.webp</argazkia>
             <deskribapena> Gontz-Gontz Extreme baina umeentzat</deskribapena>
             <prezioa>7.30€</prezioa>
             <kategoria>Kafe</kategoria>
@@ -175,7 +175,7 @@
         </produktua>
         <produktua id="p8">
             <izena>BlueBull</izena>
-            <argazkia>img/bluebull.gif</argazkia>
+            <argazkia>MULTIMEDIA/bluebull.gif</argazkia>
             <deskribapena> BlueBull, Redbull but made in china</deskribapena>
             <prezioa>7.30€</prezioa>
             <kategoria>Kafe</kategoria>
@@ -183,7 +183,7 @@
         </produktua>
         <produktua id="p11">
             <izena>NesToe 0.80€</izena>
-            <argazkia>img/fooy.webp</argazkia>
+            <argazkia>MULTIMEDIA/fooy.webp</argazkia>
             <deskribapena> Nestea but with a toe</deskribapena>
             <prezioa>0.80€</prezioa>
             <kategoria>Edariak</kategoria>
@@ -191,7 +191,7 @@
         </produktua>
         <produktua id="p21">
             <izena>Gontz-Gontz Extreme (Limited Edition Pika-Pika)</izena>
-            <argazkia>img/Gontz_gontz.webp</argazkia>
+            <argazkia>MULTIMEDIA/Gontz_gontz.webp</argazkia>
             <deskribapena> 
             Gominola paregabea. Hainbat elezaharrek diotenez, bizitzan behin bakarrik aurkezten da probatzeko aukera. Bere zaporeak goragalea, isurketa edo bat-bateko heriotza eragin dezake. DESITXURATUTA JATEA.
             EXTREME 💯💯💯💯

@@ -3,7 +3,6 @@
 
   <xsl:output method="html" version="5.0" encoding="UTF-8"></xsl:output>
 
-  <xsl:param name="id_sg"></xsl:param>
   <xsl:template match="datuak">
 
     <html lang="eu">
@@ -15,7 +14,7 @@
         <meta name="keywords" content="vending machine, makina saltzailea, maquina expendedora" />
         <meta name="author" content="Marko eta Gontzal" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <link rel="stylesheet" type="text/css" href="erronka1/CSS/css.css" />
+        <link rel="stylesheet" type="text/css" href="erronka3/CSS/css.css" />
 
       </head>
 
@@ -38,7 +37,7 @@
 
           <h2>
             \ Menu /
-            <img src="erronka1/MULTIMEDIA/bus.png" alt="Menu" width="80px" height="50px" />
+            <img src="erronka3/MULTIMEDIA/bus.png" alt="Menu" width="80px" height="50px" />
           </h2>
 
           <ul>
@@ -63,7 +62,7 @@
             <xsl:for-each select="guneak/gunea">
               <div class="karratu">
                 <a>
-                  <xsl:attribute name="href">produktuak_salmenta_guneak.php?id_sg=<xsl:value-of select="@id"></xsl:value-of>
+                  <xsl:attribute name="href">datuak_salmenta_guneak.php?id_sg=<xsl:value-of select="@id"></xsl:value-of>
                   </xsl:attribute>
                   <xsl:value-of select="izena"></xsl:value-of>
                 </a>
@@ -71,54 +70,10 @@
             </xsl:for-each>
           </div>
 
-          <fieldset class="datuakProd">
-
-            <xsl:for-each select="guneak/gunea">
-              <xsl:if test="@id=$id_sg">
-                <div class="div-produktuak">
-                  <xsl:for-each select="prk/pr">
-                    <xsl:variable name="idp" select="@id"></xsl:variable>
-                    <div class="div-produktu-barru">
-                      <xsl:for-each select="//produktuak/produktua">
-                        <xsl:if test="@id=$idp">
-                          <p>
-                            <xsl:value-of select="izena"></xsl:value-of>
-                          </p>
-
-                          <div class="classaskodaude">
-                            <img class="imgphp1">
-                              <xsl:attribute name="src">
-                                <xsl:value-of select="argazkia"></xsl:value-of>
-                              </xsl:attribute>
-                            </img>
-                          </div>
-
-
-                          <xsl:value-of select="deskribapena"></xsl:value-of>
-
-                          <p>Prezioa: <xsl:value-of select="prezioa"></xsl:value-of>
-                          </p>
-
-                          <p>Mota: <xsl:value-of select="kategoria"></xsl:value-of>
-                          </p>
-
-                          <p>Pisua: <xsl:value-of select="pisua"></xsl:value-of>
-                          </p>
-
-                        </xsl:if>
-                      </xsl:for-each>
-
-                      <p>Kantitatea:
-                        <xsl:value-of select="kantitatea"></xsl:value-of>
-                      </p>
-                    </div>
-                  </xsl:for-each>
-                </div>
-              </xsl:if>
-            </xsl:for-each>
-
-
+          <fieldset class="datuakGune">
+            <img src="MULTIMEDIA/GUNEAK.png" alt="GUNEAK"/>
           </fieldset>
+
 
 
         </div>
@@ -127,15 +82,15 @@
 
           <div>
             <a href="https://www.twitter.com">
-              <img class="saresozialimg" src="erronka1/MULTIMEDIA/twitter_logo.png" alt="Twitter_Logo" />
+              <img class="saresozialimg" src="erronka3/MULTIMEDIA/twitter_logo.png" alt="Twitter_Logo" />
             </a>
 
             <a href="https://www.instagram.com">
-              <img class="saresozialimg" src="erronka1/MULTIMEDIA/insta.webp" alt="Instagram" />
+              <img class="saresozialimg" src="erronka3/MULTIMEDIA/insta.webp" alt="Instagram" />
             </a>
 
             <a href="https://www.facebook.com">
-              <img class="saresozialimg" src="erronka1/MULTIMEDIA/face.webp" alt="Facebook" />
+              <img class="saresozialimg" src="erronka3/MULTIMEDIA/face.webp" alt="Facebook" />
             </a>
           </div>
 
