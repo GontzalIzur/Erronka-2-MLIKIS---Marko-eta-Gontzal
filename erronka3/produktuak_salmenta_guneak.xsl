@@ -46,10 +46,10 @@
               <a href="Index.html">~ Tremibus ~</a>
             </li>
             <li>
-              <a href="Gure_Produktuak.html">~ Gure Produktuak ~</a>
+              <a href="produktuak.php">~ Gure Produktuak ~</a>
             </li>
             <li>
-              <a href="Kontsultak.html">~ Kontsultak ~</a>
+              <a href="Formularioak.html">~ Kontsultak ~</a>
             </li>
           </ul>
 

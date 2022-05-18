@@ -48,7 +48,7 @@
                             <a href="produktuak.php">~ Gure Produktuak ~</a>
                         </li>
                         <li>
-                            <a href="Kontsultak.html">~ Kontsultak ~</a>
+                            <a href="Formularioak.html">~ Kontsultak ~</a>
                         </li>
                     </ul>
 
