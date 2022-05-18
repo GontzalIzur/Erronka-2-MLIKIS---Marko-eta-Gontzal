@@ -108,7 +108,7 @@
                         </xsl:if>
                       </xsl:for-each>
 
-                      <p>
+                      <p>Kantitatea:
                         <xsl:value-of select="kantitatea"></xsl:value-of>
                       </p>
                     </div>
