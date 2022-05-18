@@ -12,7 +12,7 @@
                 <meta name="keywords" content="vending machine, makina saltzailea, maquina expendedora" />
                 <meta name="author" content="Marko eta Gontzal" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-                <link rel="stylesheet" type="text/css" href="erronka1/CSS/css.css" />
+                <link rel="stylesheet" type="text/css" href="erronka3/CSS/css.css" />
             </head>
 
             <body class="produktuak">
@@ -34,7 +34,7 @@
 
                     <h2>
                   \ Menu /
-                        <img src="erronka1/MULTIMEDIA/bus.png" alt="Menu" width="80px" height="50px" />
+                        <img src="erronka3/MULTIMEDIA/bus.png" alt="Menu" width="80px" height="50px" />
                     </h2>
 
                     <ul>
@@ -97,15 +97,15 @@
 
                     <div>
                         <a href="https://www.twitter.com">
-                            <img class="saresozialimg" src="erronka1/MULTIMEDIA/twitter_logo.png" alt="Twitter_Logo" />
+                            <img class="saresozialimg" src="erronka3/MULTIMEDIA/twitter_logo.png" alt="Twitter_Logo" />
                         </a>
 
                         <a href="https://www.instagram.com">
-                            <img class="saresozialimg" src="erronka1/MULTIMEDIA/insta.webp" alt="Instagram" />
+                            <img class="saresozialimg" src="erronka3/MULTIMEDIA/insta.webp" alt="Instagram" />
                         </a>
 
                         <a href="https://www.facebook.com">
-                            <img class="saresozialimg" src="erronka1/MULTIMEDIA/face.webp" alt="Facebook" />
+                            <img class="saresozialimg" src="erronka3/MULTIMEDIA/face.webp" alt="Facebook" />
                         </a>
                     </div>
 
