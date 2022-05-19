@@ -37,7 +37,7 @@
 
           <h2>
             \ Menu /
-            <img src="erronka3/MULTIMEDIA/bus.png" alt="Menu" width="80px" height="50px" />
+            <img src="MULTIMEDIA/bus.png" alt="Menu" width="80px" height="50px" />
           </h2>
 
           <ul>
@@ -82,15 +82,15 @@
 
           <div>
             <a href="https://www.twitter.com">
-              <img class="saresozialimg" src="erronka3/MULTIMEDIA/twitter_logo.png" alt="Twitter_Logo" />
+              <img class="saresozialimg" src="MULTIMEDIA/twitter_logo.png" alt="Twitter_Logo" />
             </a>
 
             <a href="https://www.instagram.com">
-              <img class="saresozialimg" src="erronka3/MULTIMEDIA/insta.webp" alt="Instagram" />
+              <img class="saresozialimg" src="MULTIMEDIA/insta.webp" alt="Instagram" />
             </a>
 
             <a href="https://www.facebook.com">
-              <img class="saresozialimg" src="erronka3/MULTIMEDIA/face.webp" alt="Facebook" />
+              <img class="saresozialimg" src="MULTIMEDIA/face.webp" alt="Facebook" />
             </a>
           </div>
 
