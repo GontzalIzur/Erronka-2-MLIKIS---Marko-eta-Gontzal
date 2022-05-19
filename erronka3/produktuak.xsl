@@ -14,7 +14,7 @@
                 <meta name="keywords" content="vending machine, makina saltzailea, maquina expendedora" />
                 <meta name="author" content="Marko eta Gontzal" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-                <link rel="stylesheet"  type="text/css"  href="CSS/css.css" />
+                <link rel="stylesheet" type="text/css" href="CSS/css.css" />
 
             </head>
 
@@ -46,6 +46,9 @@
                         </li>
                         <li>
                             <a href="produktuak.php">~ Gure Produktuak ~</a>
+                        </li>
+                        <li>
+                            <a href="datuak_salmenta_guneak.php">~ Gure Guneak ~</a>
                         </li>
                         <li>
                             <a href="Formularioak.html">~ Kontsultak ~</a>
