@@ -15,7 +15,7 @@
         <meta name="keywords" content="vending machine, makina saltzailea, maquina expendedora" />
         <meta name="author" content="Marko eta Gontzal" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <link rel="stylesheet" type="text/css" href="erronka3/CSS/css.css" />
+        <link rel="stylesheet"  type="text/css"  href="CSS/css.css" />
 
       </head>
 
