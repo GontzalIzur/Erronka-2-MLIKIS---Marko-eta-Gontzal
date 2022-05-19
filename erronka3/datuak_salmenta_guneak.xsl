@@ -45,7 +45,7 @@
                             <a href="Gure_Produktuak.html">~ Gure Produktuak ~</a>
                         </li>
                         <li>
-                            <a href="datuak_salmenta_guneak.php">~ Gure Guneak ~</a>
+                            <a href="salmenta_guneak.php">~ Gure Guneak ~</a>
                         </li>
                         <li>
                             <a href="Formularioak.html">~ Kontsultak ~</a>
