@@ -26,7 +26,7 @@ function formularioaErakutsi() {
 
 function ASCII63() {
   document.getElementById("hihi").style.display = "inline";
-  var audio = new Audio("erronka1/MULTIMEDIA/augh.mp3");
+  var audio = new Audio("MULTIMEDIA/augh.mp3");
   audio.play();
 }
 
@@ -41,10 +41,14 @@ function gordeF1() {
   let izena2 = document.getElementById("name2").value;
   let emaila = document.getElementById("email").value;
   let telefono = document.getElementById("phone").value;
-  if (document.getElementsByName('galdera').checked) {
-    sexo = document.querySelector('input[name="galdera"]:checked').value;
-  } else {
-    sexo = "EZ"
+  if (document.getElementById('radio_1').checked) {
+    sexo = document.getElementById('radio_1').value;
+  } else if(document.getElementById('radio_2').checked) {
+    sexo = document.getElementById('radio_2').value;
+  } else if(document.getElementById('radio_3').checked) {
+    sexo = document.getElementById('radio_3').value;
+  } else{
+sexo= "EZ"
   }
 
   let helbidea = document.getElementById("helbidea").value;
@@ -54,14 +58,26 @@ function gordeF1() {
   let gaixotasun = document.getElementById("gaixo").value;
   let textarea = document.getElementById("komentarioa").value;
   let cv = "EZ";
-  if (document.getElementsByName('stars').checked) {
-    balorazioa = document.querySelector('input[name="stars"]:checked').value;
-  } else {
-    balorazioa = "EZ"
+  if (document.getElementById('stars1').checked) {
+    balorazioa = document.getElementById('stars1').value;
+  } else if(document.getElementById('stars2').checked) {
+    balorazioa = document.getElementById('stars2').value;
+  } else if(document.getElementById('stars3').checked) {
+    balorazioa = document.getElementById('stars3').value;
+  }   else if(document.getElementById('stars4').checked) {
+    balorazioa = document.getElementById('stars4').value;
+  }  else if(document.getElementById('stars5').checked) {
+    balorazioa = document.getElementById('stars5').value;
+  } else{
+    balorazioa= "EZ"
   }
 
   if (document.getElementById("CV").value != "") {
     cv = "BAI";
+  }
+
+  if (document.getElementById("date").value == "") {
+    data = "EZ";
   }
 
   if (document.getElementById("name").value == "") {
@@ -121,9 +137,9 @@ function gordeF1() {
 
   // Textareako datuen goiburua idatzi
 
-  document.getElementById("tiketa").value = "Data\tIzena\tAbizena\tEmaila\tTelefonoa\tSexua\tHelbidea\tHerrialdea\tGaixotasunak\tKomentarioak\tCurriculum\tBalorazioa";
+  document.getElementById("tiketa").value = "Data:" + "\t"+ob1.data + "\nIzena:" + "\t"+ob1.izena + "\nAbizena:" + "\t"+ob1.izena2 + "\nEmaila:" + "\t"+ob1.emaila + "\nTelefonoa:" + "\t"+ob1.telefono + "\nSexua:" + "\t"+ob1.sexo + "\nHelbidea:" + "\t"+ob1.izena + "\t"+ob1.helbidea2+ "\t"+ob1.helbidea3+ "\nHerrialdea:" + "\t"+ob1.paisuwu + "\nGaixotasunik:" + "\t"+ob1.gaixotasun + "\nKomentariorik:" + "\t"+ob1.textarea + "\nCV:" + "\t"+ob1.cv + "\nBalorazioa:" + "\t"+ob1.balorazioa;
 
-  document.getElementById("tiketa").value += ob1.data + "\t" + "\t" + ob1.izena + "\t" + "\t" + ob1.izena2 + "\t" + "\t" + ob1.emaila + "\t" + "\t" + ob1.telefono + "\t" + "\t" + ob1.sexo + "\t" + "\t" + ob1.helbidea2 + "\t" + "\t" + ob1.helbidea3 + "\t" + "\t" + ob1.paisuwu + "\t" + "\t" + ob1.gaixotasun + "\t" + "\t" + ob1.textarea + "\t" + "\t" + ob1.cv + "\t" + "\t" + ob1.balorazioa;
+ 
 
 }
 
@@ -136,10 +152,14 @@ function gordeF2() {
   let izena2 = document.getElementById("name2").value;
   let emaila = document.getElementById("email").value;
   let telefono = document.getElementById("phone").value;
-  if (document.getElementsByName('galdera').checked) {
-    sexo = document.querySelector('input[name="galdera"]:checked').value;
-  } else {
-    sexo = "EZ"
+  if (document.getElementById('radio_1').checked) {
+    sexo = document.getElementById('radio_1').value;
+  } else if(document.getElementById('radio_2').checked) {
+    sexo = document.getElementById('radio_2').value;
+  } else if(document.getElementById('radio_3').checked) {
+    sexo = document.getElementById('radio_3').value;
+  } else{
+sexo= "EZ"
   }
 
   let helbidea = document.getElementById("helbidea").value;
@@ -147,17 +167,33 @@ function gordeF2() {
   let helbidea3 = document.getElementById("helbidea3").value;
   let paisuwu = document.getElementById("aa").options[document.getElementById("aa").selectedIndex].text;
   let gaixotasun = document.getElementById("gaixo").value;
+  let makina1 = document.getElementById("bb").options[document.getElementById("bb").selectedIndex].text;
+  let makina2 = document.getElementById("cc").options[document.getElementById("cc").selectedIndex].text;
+  let makina3 = document.getElementById("dd").options[document.getElementById("dd").selectedIndex].text;
+  let makina4 = document.getElementById("ff").options[document.getElementById("ff").selectedIndex].text;
   let textarea = document.getElementById("komentarioa").value;
   let kantitatea = document.getElementById("kantitatea").value;
-  let cv = "EZ";
-  if (document.getElementsByName('stars').checked) {
-    balorazioa = document.querySelector('input[name="stars"]:checked').value;
-  } else {
-    balorazioa = "EZ"
+ 
+  if (document.getElementById('stars1').checked) {
+    balorazioa = document.getElementById('stars1').value;
+  } else if(document.getElementById('stars2').checked) {
+    balorazioa = document.getElementById('stars2').value;
+  } else if(document.getElementById('stars3').checked) {
+    balorazioa = document.getElementById('stars3').value;
+  }   else if(document.getElementById('stars4').checked) {
+    balorazioa = document.getElementById('stars4').value;
+  }  else if(document.getElementById('stars5').checked) {
+    balorazioa = document.getElementById('stars5').value;
+  } else{
+    balorazioa= "EZ"
   }
 
-  if (document.getElementById("CV").value != "") {
-    cv = "BAI";
+  if (document.getElementById("date").value == "") {
+    data = "EZ";
+  }
+
+  if (document.getElementById("kantitatea").value == "") {
+    kantitatea = "EZ";
   }
 
   if (document.getElementById("name").value == "") {
@@ -188,12 +224,15 @@ function gordeF2() {
     helbidea3 = "EZ";
   }
 
-  if (document.getElementById("gaixo").value == "") {
-    kantitatea = "0";
-  }
-
   if (document.getElementById("komentarioa").value == "") {
     textarea = "EZ";
+  }
+
+  if (document.getElementById("gaixo").value == "") {
+    gaixotasun = "EZ";
+  }
+  if (document.getElementById("date").value == "") {
+    data = "EZ";
   }
 
   let ob1 = {
@@ -208,19 +247,19 @@ function gordeF2() {
     helbidea3: helbidea3,
     paisuwu: paisuwu,
     gaixotasun: gaixotasun,
+    makina1: makina1,
+    makina2: makina2,
+    makina3: makina3,
+    makina4: makina4,
     textarea: textarea,
-    cv: cv,
+    kantitatea: kantitatea,
     balorazioa: balorazioa,
   }
 
   datuak.push(ob1);
 
   // Textareako datuen goiburua idatzi
-  document.getElementById("tiketa").value = ""
-
-  document.getElementById("tiketa").value = "Data\tIzena\tAbizena\tEmaila\tTelefonoa\tSexua\tHelbidea\tHerrialdea\tGaixotasunak\tKomentarioak\tCurriculum\tBalorazioa";
-
-  document.getElementById("tiketa").value += ob1.data + "\t" + "\t" + ob1.izena + "\t" + "\t" + ob1.izena2 + "\t" + "\t" + ob1.emaila + "\t" + "\t" + ob1.telefono + "\t" + "\t" + ob1.sexo + "\t" + "\t" + ob1.helbidea2 + "\t" + "\t" + ob1.helbidea3 + "\t" + "\t" + ob1.paisuwu + "\t" + "\t" + ob1.gaixotasun + "\t" + "\t" + ob1.textarea + "\t" + "\t" + ob1.cv + "\t" + "\t" + ob1.balorazioa;
+  document.getElementById("tiketa2").value = "Data:" + "\t"+ob1.data + "\nIzena:" + "\t"+ob1.izena + "\nAbizena:" + "\t"+ob1.izena2 + "\nEmaila:" + "\t"+ob1.emaila + "\nTelefonoa:" + "\t"+ob1.telefono + "\nSexua:" + "\t"+ob1.sexo + "\nHelbidea:" + "\t"+ob1.izena + "\t"+ob1.helbidea2+ "\t"+ob1.helbidea3+ "\nHerrialdea:" + "\t"+ob1.paisuwu + "\nHerrialdea:" + "\t"+ob1.paisuwu + "\nGaixotasunik:" + "\t"+ob1.gaixotasun+ "\nManika 1:" + "\t"+ob1.makina1 + "\nMakina 2:" + "\t"+ob1.makina2 + "\nMakina 3:" + "\t"+ob1.makina3 + "\nMakina4:" + "\t"+ob1.makina4 + "\nKomentariorik:" + "\t"+ob1.textarea + "\nKantitatea:" + "\t"+ob1.kantitatea + "\nBalorazioa:" + "\t"+ob1.balorazioa;
 
 }
 
@@ -233,10 +272,14 @@ function gordeF3() {
   let izena2 = document.getElementById("name2").value;
   let emaila = document.getElementById("email").value;
   let telefono = document.getElementById("phone").value;
-  if (document.getElementsByName('galdera').checked) {
-    sexo = document.querySelector('input[name="galdera"]:checked').value;
-  } else {
-    sexo = "EZ"
+  if (document.getElementById('radio_1').checked) {
+    sexo = document.getElementById('radio_1').value;
+  } else if(document.getElementById('radio_2').checked) {
+    sexo = document.getElementById('radio_2').value;
+  } else if(document.getElementById('radio_3').checked) {
+    sexo = document.getElementById('radio_3').value;
+  } else{
+sexo= "EZ"
   }
 
   let helbidea = document.getElementById("helbidea").value;
@@ -245,17 +288,23 @@ function gordeF3() {
   let paisuwu = document.getElementById("aa").options[document.getElementById("aa").selectedIndex].text;
   let gaixotasun = document.getElementById("gaixo").value;
   let textarea = document.getElementById("komentarioa").value;
-  let kantitatea = document.getElementById("kantitatea").value;
-  let cv = "EZ";
-  if (document.getElementsByName('stars').checked) {
-    balorazioa = document.querySelector('input[name="stars"]:checked').value;
-  } else {
-    balorazioa = "EZ"
+  let arazoa = document.getElementById("arazo").options[document.getElementById("arazo").selectedIndex].text;
+  let textarea2 = document.getElementById("komentarioa2").value;
+  if (document.getElementById('stars1').checked) {
+    balorazioa = document.getElementById('stars1').value;
+  } else if(document.getElementById('stars2').checked) {
+    balorazioa = document.getElementById('stars2').value;
+  } else if(document.getElementById('stars3').checked) {
+    balorazioa = document.getElementById('stars3').value;
+  }   else if(document.getElementById('stars4').checked) {
+    balorazioa = document.getElementById('stars4').value;
+  }  else if(document.getElementById('stars5').checked) {
+    balorazioa = document.getElementById('stars5').value;
+  } else{
+    balorazioa= "EZ"
   }
 
-  if (document.getElementById("CV").value != "") {
-    cv = "BAI";
-  }
+ 
 
   if (document.getElementById("name").value == "") {
     izena = "EZ";
@@ -293,6 +342,13 @@ function gordeF3() {
     textarea = "EZ";
   }
 
+  if (document.getElementById("komentarioa2").value == "") {
+    textarea2 = "EZ";
+  }
+  if (document.getElementById("date").value == "") {
+    data = "EZ";
+  }
+
   let ob1 = {
     data: data,
     izena: izena,
@@ -306,21 +362,72 @@ function gordeF3() {
     paisuwu: paisuwu,
     gaixotasun: gaixotasun,
     textarea: textarea,
-    cv: cv,
+    arazoa: arazoa,
+    textarea2: textarea2,
     balorazioa: balorazioa,
   }
 
   datuak.push(ob1);
 
   // Textareako datuen goiburua idatzi
-  document.getElementById("tiketa").value = ""
-
-  document.getElementById("tiketa").value = "Data\tIzena\tAbizena\tEmaila\tTelefonoa\tSexua\tHelbidea\tHerrialdea\tGaixotasunak\tKomentarioak\tCurriculum\tBalorazioa";
-
-  document.getElementById("tiketa").value += ob1.data + "\t" + "\t" + ob1.izena + "\t" + "\t" + ob1.izena2 + "\t" + "\t" + ob1.emaila + "\t" + "\t" + ob1.telefono + "\t" + "\t" + ob1.sexo + "\t" + "\t" + ob1.helbidea2 + "\t" + "\t" + ob1.helbidea3 + "\t" + "\t" + ob1.paisuwu + "\t" + "\t" + ob1.gaixotasun + "\t" + "\t" + ob1.textarea + "\t" + "\t" + ob1.cv + "\t" + "\t" + ob1.balorazioa;
+  document.getElementById("tiketa3").value = "Data" + "\t"+ob1.data + "\nIzena:" + "\t"+ob1.izena + "\nAbizena:" + "\t"+ob1.izena2 + "\nEmaila:" + "\t"+ob1.emaila + "\nTelefonoa:" + "\t"+ob1.telefono + "\nSexua:" + "\t"+ob1.sexo + "\nHelbidea:" + "\t"+ob1.izena + "\t"+ob1.helbidea2+ "\t"+ob1.helbidea3+ "\nHerrialdea:" + "\t"+ob1.paisuwu + "\nHerrialdea:" + "\t"+ob1.paisuwu + "\nGaixotasunik:" + "\t"+ob1.gaixotasun+  "\nKomentariorik:" + "\t"+ob1.textarea + "\nArazoa:" + "\t"+ob1.arazoa + "\nAzalpena:" + "\t"+ob1.textarea2 + "\nBalorazioa:" + "\t"+ob1.balorazioa;
 
 }
 
 
 
+
+function gordeF4() {
+
+  let textarea = document.getElementById("komentarioa5").value;
+  let balorazioa = "";
+  let helmuga =   document.getElementById("Jatorria").value; 
+  let jatorria = document.getElementById("Helmuga").value; 
+  let data = document.getElementById("date2").value;
+
+  if (document.getElementById('stars1').checked) {
+    balorazioa = document.getElementById('stars1').value;
+  } else if(document.getElementById('stars2').checked) {
+    balorazioa = document.getElementById('stars2').value;
+  } else if(document.getElementById('stars3').checked) {
+    balorazioa = document.getElementById('stars3').value;
+  }   else if(document.getElementById('stars4').checked) {
+    balorazioa = document.getElementById('stars4').value;
+  }  else if(document.getElementById('stars5').checked) {
+    balorazioa = document.getElementById('stars5').value;
+  } else{
+    balorazioa= "EZ"
+  }
+
+ 
+  if (document.getElementById("date2").value == "") {
+    data = "EZ";
+  }
+
+  if (document.getElementById("Jatorria").value == "") {
+    jatorria = "EZ";
+  }
+
+   if (document.getElementById("Helmuga").value == "") {
+    helmuga = "EZ";
+  }
+
+  if (document.getElementById("komentarioa5").value == "") {
+    textarea = "EZ";
+  }
+
+  let ob1 = {
+    jatorria: jatorria,
+    helmuga: helmuga,
+    data: data,
+    textarea: textarea,
+    balorazioa: balorazioa,
+  }
+
+  datuak.push(ob1);
+
+  // Textareako datuen goiburua idatzi
+  document.getElementById("tiketa4").value = "Jatorria:" + "\t"+ob1.jatorria + "\nHelmuga:" + "\t"+ ob1.helmuga +"\nData:" +  "\t"+ob1.data + "\nKomentariorik:" +"\t"+ob1.textarea+ "\nBalorazioa:" + "\t"+ob1.balorazioa;
+
+}
 
