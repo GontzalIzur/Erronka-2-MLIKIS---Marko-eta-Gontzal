@@ -42,7 +42,7 @@
                             <a href="Index.html">~ Tremibus ~</a>
                         </li>
                         <li>
-                            <a href="Gure_Produktuak.html">~ Gure Produktuak ~</a>
+                            <a href="produktuak.php">~ Gure Produktuak ~</a>
                         </li>
                         <li>
                             <a href="salmenta_guneak.php">~ Gure Guneak ~</a>
