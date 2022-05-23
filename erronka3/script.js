@@ -174,16 +174,16 @@ sexo= "EZ"
   let textarea = document.getElementById("komentarioa").value;
   let kantitatea = document.getElementById("kantitatea").value;
  
-  if (document.getElementById('stars1').checked) {
-    balorazioa = document.getElementById('stars1').value;
-  } else if(document.getElementById('stars2').checked) {
-    balorazioa = document.getElementById('stars2').value;
-  } else if(document.getElementById('stars3').checked) {
-    balorazioa = document.getElementById('stars3').value;
-  }   else if(document.getElementById('stars4').checked) {
-    balorazioa = document.getElementById('stars4').value;
-  }  else if(document.getElementById('stars5').checked) {
-    balorazioa = document.getElementById('stars5').value;
+  if (document.getElementById('stars16').checked) {
+    balorazioa = document.getElementById('stars16').value;
+  } else if(document.getElementById('stars17').checked) {
+    balorazioa = document.getElementById('stars17').value;
+  } else if(document.getElementById('stars18').checked) {
+    balorazioa = document.getElementById('stars18').value;
+  }   else if(document.getElementById('stars19').checked) {
+    balorazioa = document.getElementById('stars19').value;
+  }  else if(document.getElementById('stars20').checked) {
+    balorazioa = document.getElementById('stars20').value;
   } else{
     balorazioa= "EZ"
   }
@@ -290,16 +290,16 @@ sexo= "EZ"
   let textarea = document.getElementById("komentarioa").value;
   let arazoa = document.getElementById("arazo").options[document.getElementById("arazo").selectedIndex].text;
   let textarea2 = document.getElementById("komentarioa2").value;
-  if (document.getElementById('stars1').checked) {
-    balorazioa = document.getElementById('stars1').value;
-  } else if(document.getElementById('stars2').checked) {
-    balorazioa = document.getElementById('stars2').value;
-  } else if(document.getElementById('stars3').checked) {
-    balorazioa = document.getElementById('stars3').value;
-  }   else if(document.getElementById('stars4').checked) {
-    balorazioa = document.getElementById('stars4').value;
-  }  else if(document.getElementById('stars5').checked) {
-    balorazioa = document.getElementById('stars5').value;
+  if (document.getElementById('stars11').checked) {
+    balorazioa = document.getElementById('stars11').value;
+  } else if(document.getElementById('stars12').checked) {
+    balorazioa = document.getElementById('stars12').value;
+  } else if(document.getElementById('stars13').checked) {
+    balorazioa = document.getElementById('stars13').value;
+  }   else if(document.getElementById('stars14').checked) {
+    balorazioa = document.getElementById('stars14').value;
+  }  else if(document.getElementById('stars15').checked) {
+    balorazioa = document.getElementById('stars15').value;
   } else{
     balorazioa= "EZ"
   }
@@ -385,16 +385,16 @@ function gordeF4() {
   let jatorria = document.getElementById("Helmuga").value; 
   let data = document.getElementById("date2").value;
 
-  if (document.getElementById('stars1').checked) {
-    balorazioa = document.getElementById('stars1').value;
-  } else if(document.getElementById('stars2').checked) {
-    balorazioa = document.getElementById('stars2').value;
-  } else if(document.getElementById('stars3').checked) {
-    balorazioa = document.getElementById('stars3').value;
-  }   else if(document.getElementById('stars4').checked) {
-    balorazioa = document.getElementById('stars4').value;
-  }  else if(document.getElementById('stars5').checked) {
-    balorazioa = document.getElementById('stars5').value;
+  if (document.getElementById('stars6').checked) {
+    balorazioa = document.getElementById('stars6').value;
+  } else if(document.getElementById('stars7').checked) {
+    balorazioa = document.getElementById('stars7').value;
+  } else if(document.getElementById('stars8').checked) {
+    balorazioa = document.getElementById('stars8').value;
+  }   else if(document.getElementById('stars9').checked) {
+    balorazioa = document.getElementById('stars9').value;
+  }  else if(document.getElementById('stars10').checked) {
+    balorazioa = document.getElementById('stars10').value;
   } else{
     balorazioa= "EZ"
   }
